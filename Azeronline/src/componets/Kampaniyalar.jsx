@@ -42,7 +42,7 @@ function Kampaniyalar() {
             
                   {
             categories.map((item,id)=>(
-                <li key={id} className={category ===item?"activeCategory":""} onClick={() => (setCategory(item),setCategoryItemData(categoryData.filter((x) => x.type === item)))} >{item}</li>
+                <li key={id} className={category ===item?"activeCategoryWhite":""} onClick={() => (setCategory(item),setCategoryItemData(categoryData.filter((x) => x.type === item)))} >{item}</li>
             ))
         }
 

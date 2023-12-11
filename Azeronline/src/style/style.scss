@@ -25,7 +25,8 @@
       gap: 10px;
       align-items: flex-end;
 
-      .header-logo {}
+      .header-logo {
+      }
 
       .header-popop {
         button {
@@ -85,11 +86,14 @@
       flex-direction: column;
       row-gap: 3px;
 
-      .basket-left {}
+      .basket-left {
+      }
 
-      .basket-center {}
+      .basket-center {
+      }
 
-      .basket-right {}
+      .basket-right {
+      }
 
       .basket {
         width: 40px;
@@ -316,7 +320,8 @@ svg {
       }
     }
 
-    .Map-container-center {}
+    .Map-container-center {
+    }
 
     .Map-container-end {
       display: flex;
@@ -460,7 +465,6 @@ svg {
       }
 
       .Kampaniyalar-data {
-
         // margin-top: 30px;
         .Kampaniyalar-item {
           display: flex;
@@ -494,7 +498,8 @@ svg {
             }
           }
 
-          .Kampaniyalar-item-right {}
+          .Kampaniyalar-item-right {
+          }
 
           &:hover {
             transform: scale(0.9);
@@ -553,7 +558,8 @@ svg {
     flex-direction: column;
     row-gap: 15px;
 
-    p {}
+    p {
+    }
   }
 
   .arxiveTable {
@@ -642,7 +648,8 @@ svg {
         padding: 25px 0;
         cursor: pointer;
 
-        img {}
+        img {
+        }
 
         a {
           position: relative;
@@ -721,7 +728,8 @@ svg {
             width: 30px;
           }
 
-          a {}
+          a {
+          }
         }
       }
     }
@@ -783,7 +791,7 @@ svg {
             color: white;
             font-size: 22px;
             padding: 10px 15px;
-            transition: .6s;
+            transition: 0.6s;
             cursor: pointer;
             &:hover {
               background-color: white;
@@ -794,10 +802,10 @@ svg {
         }
       }
 
-
-      .FiberOptik-sertler{
+      .FiberOptik-sertler {
         margin-top: 20px;
-        h3{
+        h3,
+        a {
           text-align: center;
           color: white;
           font-size: 20px;
@@ -806,90 +814,90 @@ svg {
     }
   }
 }
-      .FiberOptik-data {
-        display: grid;
-        column-gap: 15px;
+.FiberOptik-data {
+  display: grid;
+  column-gap: 15px;
 
-        .fiberobtikData-item {
-          position: relative;
-          background-color: transparent;
-          border: 2px solid #fff;
-          border-radius: 5px;
-          padding: 30px 0;
-          text-align: center;
-          transition: all 0.25s;
-          display: flex;
-          flex-direction: column;
-          row-gap: 35px;
-          transition: .5s;
-          &:hover{
-            transform: scale(1.05);
-          }
-          h3 {
-            font-size: 25px;
-            color: white;
-          }
+  .fiberobtikData-item {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 30px 0;
+    text-align: center;
+    transition: all 0.25s;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    transition: 0.5s;
+    &:hover {
+      transform: scale(1.05);
+    }
+    h3 {
+      font-size: 25px;
+      color: white;
+    }
 
-          .FiberOptik-button {
-            display: flex;
-            flex-direction: column;
-            row-gap: 6px;
-            background: white;
-            width: 50%;
-            margin: 0 auto;
-            border-radius: 8px;
-            padding: 8px;
+    .FiberOptik-button {
+      display: flex;
+      flex-direction: column;
+      row-gap: 6px;
+      background: white;
+      width: 50%;
+      margin: 0 auto;
+      border-radius: 8px;
+      padding: 8px;
 
-            span {
-              color: #4b009b;
-            }
-
-            .number {
-              font-size: 25px;
-
-              font-weight: 800;
-            }
-          }
-
-          .price {
-            font-size: 25px;
-            color: white;
-          }
-
-          .Ətraflı {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            bottom: -8px;
-            width: 100%;
-            cursor: pointer;
-
-            span {
-              background: white;
-              width: 50%;
-              padding: 5px 0;
-              border-radius: 5px;
-              color: #4b009b;
-              font-weight: 600;
-            }
-          }
-
-          &:hover {
-            background-color: white;
-
-            h3,
-            p {
-              color: #4b009b;
-            }
-
-            .FiberOptik-button,
-            span {
-              background-color: #4b009b;
-              color: white;
-            }
-          }
-        }
+      span {
+        color: #4b009b;
       }
+
+      .number {
+        font-size: 25px;
+
+        font-weight: 800;
+      }
+    }
+
+    .price {
+      font-size: 25px;
+      color: white;
+    }
+
+    .Ətraflı {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      bottom: -8px;
+      width: 100%;
+      cursor: pointer;
+
+      span {
+        background: white;
+        width: 50%;
+        padding: 5px 0;
+        border-radius: 5px;
+        color: #4b009b;
+        font-weight: 600;
+      }
+    }
+
+    &:hover {
+      background-color: white;
+
+      h3,
+      p {
+        color: #4b009b;
+      }
+
+      .FiberOptik-button,
+      span {
+        background-color: #4b009b;
+        color: white;
+      }
+    }
+  }
+}
 .fiberOptikaItemPopop {
   display: flex;
   flex-direction: column;
@@ -897,7 +905,8 @@ svg {
   color: #323e4f;
   font-size: 19px;
 
-  p {}
+  p {
+  }
 
   .fiberOptikText {
     span {
@@ -906,14 +915,16 @@ svg {
   }
 
   .fiberOptikToll {
-    span {}
+    span {
+    }
 
-    b {}
+    b {
+    }
   }
 
   a {
     border-bottom: 1px dotted;
-    transition: .4s;
+    transition: 0.4s;
     width: max-content;
     color: #323e4f;
 
@@ -922,126 +933,486 @@ svg {
       color: #4b009b;
     }
   }
+  .SimsimCity {
+    line-height: 27px;
+    strong {
+      text-decoration: underline;
+    }
+  }
 }
 
-.activeCategory {
+.activeCategoryWhite {
   background-color: white;
-  color: #2d373c !important;
+  color: #2d373c !important ;
   border-radius: 7px 7px 0px 0px;
 }
-#Simsim{
+#Simsim {
   margin-top: 50px;
   padding: 40px 0;
-.Simsim-container{
+  .Simsim-container {
     width: 80%;
     margin: 0 auto;
-    .Simsim-logo{
-      h3{
+    .Simsim-logo {
+      h3 {
         text-align: center;
-    font-size: 40px;
-    margin-bottom: 40px;
-    color: #4b009b;
+        font-size: 40px;
+        margin-bottom: 40px;
+        color: #4b009b;
       }
     }
-  .Simsim-word{
-    .Simsim-secim {
-      margin-bottom: 40px;
-      ul {
+    .Simsim-word {
+    }
+
+    .Simsim-item {
+      position: relative;
+      background-color: transparent;
+      border: 2px solid #4b009b;
+      border-radius: 5px;
+      padding: 30px 0;
+      text-align: center;
+      transition: all 0.25s;
+      display: flex;
+      flex-direction: column;
+      row-gap: 35px;
+      transition: 0.5s;
+
+      h3 {
+        font-size: 25px;
+        color: #4b009b;
+      }
+
+      .Simsim-button {
         display: flex;
-        justify-content: center;
-        gap: 10px;
-        position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 2px;
-          background-color: #4b009b;
-          bottom: 0;
-          left: 0;
+        flex-direction: column;
+        row-gap: 6px;
+        background: #4b009b;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 8px;
+
+        span {
+          color: white;
         }
 
-        li {
-          color: #4b009b;
-          font-size: 22px;
-          padding: 10px 15px;
-          transition: .6s;
-          cursor: pointer;
-          &:hover {
-            background-color: #4b009b;
-            color: white !important;
-            border-radius: 7px 7px 0px 0px;
+        .number {
+          font-size: 25px;
+
+          font-weight: 800;
+        }
+      }
+
+      .price {
+        font-size: 25px;
+        color: #4b009b;
+      }
+      &:hover {
+        transform: scale(1.05);
+        background-color: #4b009b;
+        border: 2px white;
+        h3 {
+          color: white;
+        }
+        .Simsim-button {
+          background: white;
+          span {
+            color: #4b009b;
+          }
+        }
+        .price {
+          color: white;
+        }
+      }
+    }
+  }
+}
+.activeCategoryBlack {
+  background-color: #4b009b;
+  color: white !important;
+}
+.Simsim-secim {
+  margin-bottom: 40px;
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #4b009b;
+      bottom: 0;
+      left: 0;
+    }
+
+    li {
+      color: #4b009b;
+      font-size: 22px;
+      padding: 10px 15px;
+      transition: 0.6s;
+      cursor: pointer;
+      &:hover {
+        background-color: #4b009b;
+        color: white !important;
+        border-radius: 7px 7px 0px 0px;
+      }
+    }
+  }
+}
+.SimsimPopop-pading {
+  padding: 20px 0;
+}
+.SimsimSertler {
+  font-size: 20px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  color: #4b009b;
+}
+.underlineB {
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #4b009b;
+    bottom: -2px;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: 0.6s;
+  }
+
+  &:hover {
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
+.swiper-button-prev {
+  display: none;
+}
+.swiper-button-next {
+  display: none;
+}
+
+#IPTV {
+  background-color: #eee;
+ padding-top: 80px;
+ padding-bottom: 40px;
+  .IPTV {
+    width: 80%;
+    margin: 0 auto;
+    .IPTV-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 100px;
+      .IPTV-container-top {
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+        .IPTV-word {
+          text-align: center;
+
+          h3 {
+            font-size: 40px;
+            color: #4b009b;
+            margin-bottom: 40px;
+          }
+          p {
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+        .IPTV-images {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          column-gap: 30px;
+          row-gap: 15px;
+          .IPTV-item {
+            width: 120px;
+            cursor: pointer;
+            // padding: 10px;
+            img {
+              width: 100%;
+              transition: 0.6s;
+              &:hover {
+                transform: scale(0.7);
+              }
+            }
+          }
+        }
+        .IPTV-Kanal {
+          display: flex;
+          justify-content: center;
+          h3 {
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            color: #4b009b;
+          }
+        }
+      }
+      .IPTV-container-bottom {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        .IPTVType-data {
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+          .IPTVItemFerdi-data {
+            border: 2px solid white;
+            background: #4b009b;
+            color: white;
+            padding: 20px;
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 40px;
+            border-radius: 15px;
+            transition: .7s;
+            &:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+            }
+            h3 {
+              font-size: 23px;
+            }
+            .IPTVItem-button {
+              position: relative;
+              h5 {
+                border: 1px solid;
+                height: 110px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                font-size: 30px;
+                color: #4b009b;
+                background: white;
+                width: 150px;
+                margin: 0 auto;
+              }
+              .IPTVPosition {
+                position: absolute;
+                top: -24px;
+                left: 50px;
+                background: #bb4a97;
+                border-radius: 10px;
+                width: 94px;
+                display: flex;
+                flex-direction: column;
+                font-size: 12px;
+                height: 50px;
+                justify-content: center;
+                border: 1px solid;
+                srtong {
+                  font-size: 21px;
+                  font-weight: 600;
+                }
+              }
+            }
+        
+          }
+          .IPTV-price {
+            font-size: 25px;
+            font-weight: 700;
+          }
+          .IPTVItemBiznes-data {
+            border: 2px solid #4b009b;
+            padding: 20px;
+            width: 200px;
+            height: 250px;
+            background: white;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 25px;
+            transition: .7s;
+            color: #4b009b;
+            &:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+            }
+            .BiznesTiatle {
+              position: relative;
+              h5 {
+                border: 3px solid #CCCCCC;
+                font-size: 20px;
+                padding: 0 15px;
+                width: 120px;
+                margin: 0 auto;
+                text-align: center;
+                height: 160px;
+                border-radius: 14px;
+                display: flex;
+                align-items: center;
+              }
+              .BiznesTop {
+                position: absolute;
+                top: -18px;
+                left: 15px;
+                background: #BB4A97;
+                border-radius: 6px;
+                color: white;
+                width: 80%;
+                text-align: center;
+                font-size: 23px;
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              }
+            }
+          }
+        }
+        .IPTV-sertler{
+          margin-top: 40px;
+          h3{
+            font-size: 25px;
+            color: #4b009b;
           }
         }
       }
     }
   }
-.activeCategory{
-  background-color: #4b009b;
-  color: white !important;
 }
-.Simsim-item{
-  position: relative;
-  background-color: transparent;
-  border: 2px solid #4b009b;
-  border-radius: 5px;
-  padding: 30px 0;
-  text-align: center;
-  transition: all 0.25s;
-  display: flex;
-  flex-direction: column;
-  row-gap: 35px;
-  transition: .5s;
- 
-  h3 {
-    font-size: 25px;
-    color: #4b009b;
-  }
-
-  .Simsim-button {
+.IptvPopop-container {
+  .IptvitemPopop {
     display: flex;
     flex-direction: column;
-    row-gap: 6px;
-    background:#4b009b;
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 8px;
-    padding: 8px;
-
-    span {
-      color: white;
-    }
-
-    .number {
-      font-size: 25px;
-
-      font-weight: 800;
+    row-gap: 10px;
+    padding: 20px 0;
+    border-bottom: 1px solid #2d373c;
+    &:last-of-type {
+      border-bottom: 1px solid #ffffff;
     }
   }
-
-  .price {
-    font-size: 25px;
-    color: #4b009b;
-  }
-   &:hover{
-    transform: scale(1.05);
-    background-color: #4b009b;
-    border: 2px white;
-    h3{
-      color: white;
+}
+.IPTVSerlerItem{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  .fiberOptikText{
+    span{
+      text-decoration: underline;
     }
-    .Simsim-button{
-      background: white;
-      span{
-        color: #4b009b;
-      }
-     
-    } 
-    .price{
+  }
+}
+#ADSL{
+  .ADSL{
+    background-color: #565656;
+    .ADSL-container{
+      display: flex;
+      flex-direction: column;
+      row-gap: 45px;
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0;
+      .ADSL-Logo{
+        text-align: center;
+        font-size: 30px;
         color: white;
-      }
+
+
+      }        
+      .ADSL-Data{
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          .ADSL-dataItem{
+            border: 2px solid white;
+            width: 200px;
+            height: 170px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            transition: .6s;
+            .ADSL-dataItemButton{
+              background-color: white;
+              display: flex;
+              flex-direction: column;
+              row-gap: 10px;
+              align-items: center;
+              padding: 5px;
+              width: 90px;
+              border-radius: 7px;
+              color: #4b009b;
+              strong{
+                font-size: 25px;
+                font-weight: 700;
+              }
+              p{
+                font-size: 13px;
+              }
+            }
+            .ADSL-price{
+              font-size: 22px;
+              font-weight: 600;
+              color: white;
+            }
+            &:hover{
+              cursor: pointer;
+              transform: scale(1.1);
+            }
+          }
+        }
+        .ADSL-sertler{
+          text-align: center;
+          font-size: 18px;
+          color: white;
+          h3{
+
+          }
+        }
+    }
+
   }
 }
-}
-}
+.ADSlPopop-container{ 
+   width: 80%;
+    margin: 0 auto;
+  .ADSLPopop-table{
+  
+    table{
+      width: 100%;
+      tr{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        align-items: center;
+        transition: .6s;
+        border-bottom: 1px solid #565656;
+        padding: 5px 0;
+        &:hover{
+          background-color: #CCC;
+          cursor: pointer;
+        }
+        &:last-child{
+          border-bottom: 1px solid white;
+        }
 
+      }
+    }
+  }
+  .ADSLPopop-word{
+ line-height: 35px;
+
+  }
+}

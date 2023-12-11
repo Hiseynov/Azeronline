@@ -20,6 +20,9 @@ import Kampaniyalar from "../componets/Kampaniyalar";
 import Xidmətlər from "../componets/Xidmətlər";
 import FiberOptik from "../componets/FiberOptik";
 import Simsim from "../componets/Simsim";
+import IPTV from "../componets/IPTV";
+import ADSL from "../componets/ADSL";
+import Korporativ from "../componets/Korporativ";
 function Home() {
   const [Scroolpopop, setScroolPopop] = useState(false);
   const [ScroolData, setScroolData] = useState([]);
@@ -77,7 +80,7 @@ function Home() {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 1500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -191,6 +194,15 @@ function Home() {
         </section>
         <section id="Simsim">
           <Simsim></Simsim>
+        </section>
+        <section id="IPTV">
+          <IPTV></IPTV>
+        </section>
+        <section id="ADSL">
+          <ADSL></ADSL>
+        </section>
+        <section id="Korporativ">
+          <Korporativ></Korporativ>
         </section>
     </>
   );

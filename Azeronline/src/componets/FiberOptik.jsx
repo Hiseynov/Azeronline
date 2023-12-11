@@ -55,7 +55,7 @@ function FiberOptik() {
               {categories.map((item, id) => (
                 <li
                   key={id}
-                  className={category === item ? "activeCategory" : ""}
+                  className={category === item ? "activeCategoryWhite" : ""}
                   onClick={() => (
                     setCategory(item),
                     setFiberoptikItemData(
@@ -92,8 +92,9 @@ function FiberOptik() {
                 ))
             }
           </div>
+          
           {
-            category === "Biznes" && (
+            category === "Biznes"?(
                 <div className="FiberOptik-sertler underline">
                   {
                     SertlerData.map((item,id)=>(
@@ -103,6 +104,12 @@ function FiberOptik() {
                     ))
                   }
                 </div>
+            ):(
+             <div className="FiberOptik-sertler underline">
+              <h3>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5I9WGUWssqWSmJCLB0mnlURYDS9kq-UroypCE_UxW3Vr7TQ/viewform">Qeydiyyat</a>
+              </h3>
+             </div>
             )
           }
         </div>
@@ -117,12 +124,6 @@ function FiberOptik() {
             <CityPopop SertlerItemData={SertlerItemData} setSertlerPopop={setSertlerPopop} ></CityPopop>
         )
       }
-      {/* {
-        (category === "Biznes") && (
-           
-            // <CityPopop SertlerData={SertlerData} setSertlerPopop={setSertlerPopop} ></CityPopop>
-        )
-      } */}
     </>
   );
 }

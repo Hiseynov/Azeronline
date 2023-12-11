@@ -2025,7 +2025,7 @@
       "text": "Mb/s sürət",
       "price": "18 AZN",
       "type": "Fərdi",
-      "Ətraflı":"Ətraflı",
+      "Ətraflı": "Ətraflı",
       "popopData": [
         {
           "text": "SİLVER tarifinə qoşulma PULSUZDUR."
@@ -2055,7 +2055,7 @@
           "text": "Qoşulma şərtləri bəzi ərazilərdə fərqlənə bilər. Daha dəqiq məlumat üçün Müştəri xidmətləri ilə əlaqə saxlayın."
         },
         {
-          "text":""
+          "text": ""
         },
         {
           "text": "Qoşulmaq üçün müştəri xidmətləri ilə əlaqə saxlaya və ya onlayn qeydiyyatdan keçə bilərsiniz:"
@@ -2071,7 +2071,7 @@
         },
         {
           "Qeydiyyat": "Qeydiyyat",
-          "link":"https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
+          "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
     },
@@ -2081,7 +2081,7 @@
       "text": "Mb/s sürət",
       "price": "21 AZN",
       "type": "Fərdi",
-      "Ətraflı":"Ətraflı",
+      "Ətraflı": "Ətraflı",
       "popopData": [
         {
           "text": "GOLD tarifinə qoşulma PULSUZDUR."
@@ -2127,8 +2127,7 @@
         },
         {
           "Qeydiyyat": "clck.ru/dnVzu",
-          "link":"https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
-
+          "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
     },
@@ -2138,7 +2137,7 @@
       "text": "Mb/s sürət",
       "price": "27 AZN",
       "type": "Fərdi",
-      "Ətraflı":"Ətraflı",
+      "Ətraflı": "Ətraflı",
       "popopData": [
         {
           "text": " PLATİNUM tarifinə qoşulma PULSUZDUR."
@@ -2171,10 +2170,10 @@
           "text": "Qoşulma şərtləri bəzi ərazilərdə fərqlənə bilər. Daha dəqiq məlumat üçün Müştəri xidmətləri ilə əlaqə saxlayın"
         },
         {
-          "text":""
+          "text": ""
         },
         {
-          "text":"Qoşulmaq üçün müştəri xidmətləri ilə əlaqə saxlaya və ya online qeydiyyatdan keçe bilərsiz:"
+          "text": "Qoşulmaq üçün müştəri xidmətləri ilə əlaqə saxlaya və ya online qeydiyyatdan keçe bilərsiz:"
         },
         {
           "underline": "24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
@@ -2187,8 +2186,7 @@
         },
         {
           "Qeydiyyat": "clck.ru/dnVzu",
-          "link":"https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
-
+          "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
     },
@@ -2198,7 +2196,7 @@
       "text": "Mb/s sürət",
       "price": "30 AZN",
       "type": "Fərdi",
-      "Ətraflı":"Ətraflı",
+      "Ətraflı": "Ətraflı",
       "popopData": [
         {
           "text": "EXTRA tarifinə qoşulma PULSUZDUR."
@@ -2228,7 +2226,7 @@
           "text": "Qoşulma şərtləri bəzi ərazilərdə fərqlənə bilər. Daha dəqiq məlumat üçün Müştəri xidmətləri ilə əlaqə saxlayın."
         },
         {
-          "text":""
+          "text": ""
         },
         {
           "text": "Qoşulmaq üçün müştəri xidmətləri ilə əlaqə saxlaya və ya qeydiyyatdan keçe bilərsiz:"
@@ -2241,7 +2239,7 @@
         },
         {
           "Qeydiyyat": "Qeydiyyat",
-          "link":"https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
+          "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
     },
@@ -2266,38 +2264,37 @@
       "price": "55 AZN",
       "type": "Biznes"
     }
-    
   ],
-  "SertlerFiberObtik":[
+  "SertlerFiberObtik": [
     {
-      "logo":"Şərtlər",
-      "data":[
+      "logo": "Şərtlər",
+      "data": [
         {
-          "text":"Azeronline  Biznes Optik İnternet xidmətinə qoşulma yalnız şirkət, ofis və obyektlərə şamil edilir və qoşulma mümkünlüyü yalnız əraziyə baxış keçirildikdən sonra müəyyən edilir."
+          "text": "Azeronline  Biznes Optik İnternet xidmətinə qoşulma yalnız şirkət, ofis və obyektlərə şamil edilir və qoşulma mümkünlüyü yalnız əraziyə baxış keçirildikdən sonra müəyyən edilir."
         },
         {
-          "text":" İnternet xidmətinə birdəfəlik qoşulma ödənişsizdir."
+          "text": " İnternet xidmətinə birdəfəlik qoşulma ödənişsizdir."
         },
         {
-          "text":"Huawei Wi-Fi ruter üçün ödənilməli məbləğ 55 AZN təşkil edir."
+          "text": "Huawei Wi-Fi ruter üçün ödənilməli məbləğ 55 AZN təşkil edir."
         },
         {
-          "text":"Seçilmiş tarifə uyğun aylıq ödəniş növbəti 30 gün ərzində İnternetdən istifadə imkanı verir."
+          "text": "Seçilmiş tarifə uyğun aylıq ödəniş növbəti 30 gün ərzində İnternetdən istifadə imkanı verir."
         },
         {
-          "text":"Balansın bitdiyi gün İnternet yalnız saat 23:59-a qədər aktiv olacaq."
+          "text": "Balansın bitdiyi gün İnternet yalnız saat 23:59-a qədər aktiv olacaq."
         },
         {
-          "text":"Balansına 3 ay ardıcıl seçilmiş tarifə uyğun ödəniş etməyən abonentlə müqaviləyə avtomatik xitam verilir."
+          "text": "Balansına 3 ay ardıcıl seçilmiş tarifə uyğun ödəniş etməyən abonentlə müqaviləyə avtomatik xitam verilir."
         },
         {
-          "text":"1 ədəd statik İP üzrə illik xidmət haqqı 55 AZN təşkil edir."
+          "text": "1 ədəd statik İP üzrə illik xidmət haqqı 55 AZN təşkil edir."
         },
         {
-          "text":"Qiymətlərə ƏDV daxildir."
+          "text": "Qiymətlərə ƏDV daxildir."
         },
         {
-          "text":""
+          "text": ""
         },
         {
           "strong": [
@@ -2324,13 +2321,12 @@
         },
         {
           "Qeydiyyat": "clck.ru/dnVzu",
-          "link":"https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
-
+          "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
     }
   ],
-  "Simsim":[
+  "Simsim": [
     {
       "logo": "Simsiz Onlayn 15",
       "number": "15",
@@ -2379,6 +2375,555 @@
       "text": "Mb/s sürət",
       "price": "130 AZN",
       "type": "Biznes"
+    }
+  ],
+  "SertlerSimsim": [
+    {
+      "logo": "Şərtlər",
+      "data": [
+        {
+          "text": "İnternet xidmətinə birdəfəlik qoşulma haqqı 225 AZN təşkil edir."
+        },
+        {
+          "text": "Birdəfəlik qoşulma haqqına kabel çəkilişi, müvafiq avadanlıq və Wi-Fi ruteri daxildir. Ruter abunəçinin mülkiyyətinə verilir."
+        },
+        {
+          "text": "Yeni qoşulan abonent seçdiyi tarifin ilk ayının xidmət haqqını qoşulmadan sonra ən gec bir gün ərzində ödəməlidir."
+        },
+        {
+          "text": "Seçilmiş tarifə uyğun aylıq ödəniş növbəti 30 gün ərzində İnternetdən istifadə imkanı verir."
+        },
+        {
+          "text": "Balansın bitdiyi gün İnternet yalnız saat 23:59-a dək aktiv olacaq."
+        },
+        {
+          "text": "Balansına 3 ay ardıcıl seçilmiş tarifə uyğun ödəniş etməyən abonentlə müqaviləyə avtomatik xitam verilir."
+        },
+        {
+          "text": "1 ədəd statik İP üzrə illik xidmət haqqı 55 AZN təşkil edir."
+        },
+        {
+          "text": "Simsiz internetə qoşulmanın mümkünlüyü region təmsilçilərimizlə dəqiqləşdirilməlidir."
+        },
+        {
+          "text": "Qiymətlərə ƏDV daxildir."
+        },
+
+        {
+          "strongSim": [
+            {
+              "underline": "Əhatə dairəmiz:",
+              "city": "  Şəmkir, Ağcəbədi, Lənkaran, Göyçay, Quba, Xaçmaz, Şəki, Siyəzən, Səlyan, Neftçala, Kürdəmir, Şirvan, Gəncə, Qusar, Şabran, Bərdə, Ucar, Yevlax, Ağdaş, Sabirabad, Hacıqabul."
+            }
+          ]
+        },
+        {
+          "b": "QEYD: Bakı və Abşeron ərazisində Simsiz İnternet xidməti təqdim olunmur. "
+        },
+        {
+          "title": "Ətraflı məlumat və qoşulmaq üçün Müştəri xidmətlərinə müraciət edə bilərsiniz."
+        },
+        {
+          "underline": "24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
+        },
+        {
+          "toll": "2020 (Azercell abunəçiləri üçün)"
+        },
+        {
+          "toll": "012 450-2020"
+        }
+      ]
+    }
+  ],
+  "DataIptv": [
+    {
+       "logo": "İPTV",
+      "title": "Yerli və əcnəbi telekanallar xidmətinizdə",
+      "images": [
+        {
+          "img": "https://azeronline.com/uploads/7a82cd12cf35f4f5a2b021a3f26517bb.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/9a742c52e0a888b1731149b470daafe9.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/7558f4865af141ecfc4731ad1d2f0093.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/a5b2f6058fa68d22496a17a44df7789b.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/3e109fda9317764703fe0c8ee6c67303.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/c25c29efab3a9824b0421f4ab9ab04bf.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/9aa0ef8cd8e454d591bcf1cf934c3d76.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/191e1f6e8fe9ace7eb2228cb376e3125.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/0292ecebf167529167498b19818cc9b1.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/f1063a3185a5fdfc51dc1ef1999269a7.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/12607a3e0862b07530fcb148ec4158ec.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/7bd7a94a4e01aa203c54ad5818001f10.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/c55a8244e4f68a22a61fedc546e3a4ec.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/6235fbadd964ea68de68b0d525a123f9.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/d2b6f09d15d0b7000aaad643bb8610f5.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/383420ba1850a035ba71bfc66bf0d37d.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/6129be9fa98bda69922faece67cee85b.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/840c3e0a8a13b484f34658c156fd1c8c.jpg"
+        }
+      ],
+      "KanallarData":[
+        {
+          "logo": "Kanalların siyahısı",
+          "logoSert": "Kanallar",  
+        "KanalPopop": [
+        {
+          "logo": "TÜRK",
+          "text": "TRT1, TRT Turk, ATV Turk, Kanal 7, Tv 8.5, Kanal D, Show TV, TV 8 Int, TRT Avaz, Beyaz TV, NTV (tr), Star TV, TRT Haber, Bloomberg, Akilli TV, MGC, Dream Turk, DreamTV, TMB, Disney Channel Turk, TRT Cocuk, Cartoon Network Turk, Minika Cocuk, TRT Spor, DMAX, A Spor, FB TV, ATV Türkiye HD, Show TV HD, Star TV HD, TV8 HD, Kanal 7 HD, 360 TV, TRT Belgesel, NTV Türkiye HD, A Haber HD, A SPOR HD"
+        },
+        {
+          "logo": "RUS",
+          "text": "Первый канал (ОРТ), Россия 1, Россия 24, РТР Планета, НТВ, РБК ТВ, ТНТ, ТНТ4, СТС, РЕН ТВ, ТВ 3, ЧЕ, Пятница, 2x2, Авто 24, Авто Плюс, Телекафе, Кухня ТВ, Родное Кино, Киносемья, Индийское Кино, Кинохит, Киносвидание, Наше Новое Кино, Кинокомедия, Киномикс, Киносерия, Мужское кино, AMEDIA2, ЕвроКино, Иллюзион, Русский Иллюзион, Домашний, Tv 1000 Русское кино, Tv 1000, Tv 1000 Action, 365 Дней, Моя Планета, Охота и Рыбалка, Живая Планета, 24 Техно, Наука 2.0, Совершенно Секретно, Звезда, RUTV, Музыка Первого, Europa + TV, Bridge TV Русский Хит, Детский, Мультимания, Карусель ТВ, Мульт, Детский Мир, Матч! Футбол 1, Матч! Футбол 2, Матч! Футбол 3, Матч! Игра, Матч! ТВ, Матч! Боец ТВ, Матч премьера, Мир ТВ, 5 Канал, Ностальгия, Первый HD, НТВ HD, Россия HD, Мир 24, СТС Love, Мир сериала, Любимое кино, Кино ТВ, Cinema, Bollywood HD, Кинопремьера HD, Дом Кино Премиум HD, Ю-ТВ, История, Первый образовательный, 24 Док, Домашние животные, Кто есть кто, RTG HD, Матч! Премьера, Шансон ТВ, BridgeTV, Муз ТВ, Жара, Tiji, Ani – ТВ, Бокс ТВ, КХЛ HD, Матч! Арена HD, Матч ТВ HD, Матч! Футбол 1 HD, Матч! Футбол 2 HD, Матч! Футбол 3 HD"
+        },
+        {
+          "logo": "BEYNƏLXALQ",
+          "text": "EuroNews, BBC World News, Fashion, Discovery Channel, Discovery Science, National Geographic, Nat Geo Wild HD, Animal Planet, ViaSat History, Viasat Nature East, Viasat Explorer, History, Galaxy TV, TLC, DTX, Da Vinchi Learning, MTV, Cartoon Network, Disney канал, Eurosport1, Extreme Sport, ViaSat Sport, CNN International, Euronews Eng, Paramount Comedy, Paramount Channel, Fox Life, VIP Megahit HD, Amedia 1, Amedia Hit, Amedia Premium HD, MGM HD, Fox HD, Investigation Discovery, Discovery channel HD, Animal Planet HD, National Geographic HD, Travel Channel HD, Viasat Nature HD, History HD, Mezzo Live HD, Gulli Girl, Nickelodeon HD, Tlum HD, Viasat Sport HD, EuroSport 1 HD, EuroSport 2, ATV HD"
+        }
+      ]
+        }
+      ]
+    }
+  ],
+
+  "IPtVType": [
+    {
+      "logo": "PLATİNUM",
+      "number": "50",
+      "text": "Mb/s sürət",
+      "price": "25 AZN",
+      "title": "IPTV",
+      "type": "Fərdi"
+    },
+    {
+      "type": "Biznes",
+      "title": "BİRİNCİ CİHAZ ÜÇÜN",
+      "price": "10 AZN",
+      "top": "İPTV"
+    },
+    {
+      "type": "Biznes",
+      "title": "İKİNCİ VƏ HƏR ƏLAVƏ",
+      "price": "5 AZN",
+      "top": "İPTV"
+    }
+  ],
+  "IPTVSertler": [
+    {
+      "logo": "Şərtlər",
+      "data": [
+        {
+          "text": "İPTV xidmətinə qoşulma ÖDƏNİŞSİZDİR."
+        },
+        {
+          "text": "Cihazın (set up box) qiyməti 35 AZN təşkil edir."
+        },
+        {
+          "text": "Əldə olunan İPTV cihazı 12 ay istifa etdikdən sonra abunəçinin mülkiyyətinə keçir."
+        },
+        {
+          "text": "İPTV xidməti Azeronline interneti olmadan təqdim olunmur."
+        },
+        {
+          "text": "İnternet xidməti çalışmadığı zaman İPTV xidməti də çalışmır."
+        },
+        {
+          "text": "Kanalların sayı: 200+"
+        },
+        {
+          "text": "Qiymətlərə ƏDV daxildir."
+        },
+        {
+          "text": "Ətraflı məlumat və qoşulmaq üçün müştəri xidmətləri ilə əlaqə saxlaya bilərsiniz."
+        },
+        {
+          "underline": "24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
+        },
+        {
+          "toll": "2020 (Azercell abunəçiləri üçün)"
+        },
+        {
+          "toll": "012 450-2020"
+        }
+      ]
+    }
+  ],
+  "ADSL": [
+    {
+      "logoH3": "ADSL",
+      "logoSertler": "Tariflər və şərtlər",
+      "Data": [
+        {
+          "number": "1024",
+          "text": "Kb/s sürət",
+          "price": "10 AZN"
+        },
+        {
+          "number": "3072",
+          "text": "Kb/s sürət",
+          "price": "15 AZN"
+        },
+        {
+          "number": "5120",
+          "text": "Kb/s sürət",
+          "price": "20 AZN"
+        },
+        {
+          "number": "6144",
+          "text": "Kb/s sürət",
+          "price": "30 AZN"
+        },
+        {
+          "number": "8192",
+          "text": "Kb/s sürət",
+          "price": "40 AZN"
+        }
+      ],
+      "ADSlSertler":[
+        {
+          "logo":"Tariflər",
+          "table": [
+            {
+              "td": [
+                
+	
+                { "textTh": "Kb/s sürət" },
+                { "textTh": "Aylıq ödəniş" }
+              ]
+            },
+            {
+              "td": [
+                { "text": " 1024 / 1024" },
+                { "text": "10AZN" }
+               
+              ]
+            },
+            {
+              "td": [
+                { "text": "3072 / 1024" },
+                { "text": "15AZN" }
+             
+              ]
+            },
+            {
+              "td": [
+                { "text": "5120 / 1024" },
+                { "text": "20AZN" }
+             
+              ]
+            },
+            {
+              "td": [
+                { "text": "6144 / 1024" },
+                { "text": "30AZN" }
+               
+              ]
+            },
+            {
+              "td": [
+                { "text": "8192 / 1024" },
+                { "text": "40AZN" }
+               
+              ]
+            }
+          ],
+          "data": [
+            {
+              "text": " Azeronline İnternet xidmətinə birdəfəlik qoşulma ÖDƏNİŞSİZDİR."
+            },
+            {
+              "text": "Seçilmiş tarifə uyğun aylıq ödəniş növbəti 30 gün ərzində İnternetdən istifadə imkanı verir."
+            },
+            {
+              "text": "Balansın bitdiyi gün internet yalnız saat 23:59-a dək aktiv olacaq."
+            },
+            {
+              "text": "Balansına 3 ay ardıcıl seçilmiş tarifə uyğun ödəniş etməyən abonentlə müqaviləyə xitam verilir."
+            },
+            {
+              "text": "1 ədəd statik İP üzrə illik xidmət haqqı 55 AZN təşkil edir."
+            },
+            {
+              "text": "Müştərinin balansında vəsait olmadığı halda hesab gözləmə tarifi ilə hesablanacaq: 1 gün = 0.10 AZN (1 ay = 3 AZN)"
+            },
+            {
+              "text": "Qiymətlərə ƏDV daxildir."
+            },
+            {
+              "text": "Ətraflı məlumat və qoşulmaq üçün Müştəri xidmətlərinə müraciət edə bilərsiniz."
+            },
+            
+            {
+              "underline": "24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
+            },
+            {
+              "toll": "8220"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "KorporativData":[
+    {
+      "logo":"Korporativ xidmətlər",
+      "data":[
+        {
+          "img":"https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
+          "logo":"AYRILMIŞ İNTERNET XƏTTİ",
+          "Ətrafli":"Ətraflı",
+          "popopData":[
+            {
+              "text":"  Azeronline korporativ müştərilərinə yüksək sürətli və etibarlı internet bağlantısını təklif edir. “Ayrılmış İnternet Xətti” xidməti rəqəmsal dövrdə yerli şirkətlərə və təşkilatlara hər zaman onlayn qalmağa yardım edəcək."
+            },
+            {
+              "text":"Üstünlüklər və imkanlar:"
+            },
+            {
+              "text":" 300Mb/s-dək sürət"
+            },
+            {
+              "text":" Sürətli quraşdırılma"
+            },
+            {
+              "text":" Naqilsiz qoşulma"
+            },
+            {
+              "text":" Etibarlı bağlantı"
+            },
+            {
+              "text":" Xüsusi ayrılmış xətt"
+            },
+            {
+              "text":" Limitsiz trafik"
+            },
+            {
+              "text":" Statik İP"
+            },
+            {
+              "text":" 99.50% zəmanətli işləmə vaxtı"
+            },
+            {
+              "text":" 24/7 aktiv müştəri xidmətləri"
+            },
+            {
+              "strong": [
+                {
+                  "text": " “Ayrılmış İnternet Xətti” xidmətinə dair daha ətraflı məlumat və sifariş üçün (+994) 12 450-2020 nömrəsinə və ya "
+                },
+                {
+                  "textLink": "business@azeronline.net",
+                  "link": "mailto:business@azeronline.net"
+                },
+                {
+                  "text": "e-poçt ünvanına müraciət edin."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "img":"https://azeronline.com/uploads/41496a7fb647e9e8b46011e37c702045.jpg",
+          "logo":"SERVERLƏRİN YERLƏŞDİRİLMƏSİ (CO-LOCATION)",
+          "Ətrafli":"Ətraflı",
+          "popopData":[
+            {
+              "text":"Azeronline korporativ müştəriləri, müvafiq şəraitə malik olan Məlumat Mərkəzində, öz server avadanlığını yerləşdirə bilərlər."
+            },
+            {
+              "text":"Üstünlüklər və imkanlar:"
+            },
+            {
+              "text":"Təhlükəsiz və etibarlı yerləşdirilmə"
+            },
+            {
+              "text":"Elektrik qidalanma və soyutma sistemi"
+            },
+            {
+              "text":" 99.76% zəmanətli işləmə vaxtı"
+            },
+            {
+              "text":"  100Mb/s-dək internet bağlantı"
+            },
+            {
+              "text":" Statik İP"
+            },
+            {
+              "text":"  1Gb/s-dək data-bağlantı"
+            },
+            {
+              "text":" Limitsiz trafik"
+            },
+            {
+              "text":" 24/7 aktiv müştəri xidmətləri"
+            },
+            {
+              "strong": [
+                {
+                  "text": " Serverlərin yerləşdirilməsi xidmətinə dair daha ətraflı məlumat və sifariş üçün (+994) 12 450-2020 nömrəsinə və ya"
+                },
+                {
+                  "textLink": "business@azeronline.net",
+                  "link": "mailto:business@azeronline.net"
+                },
+                {
+                  "text": "e-poçt ünvanına müraciət edin."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "img":"https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
+          "logo":"AYRILMIŞ İNTERNET XƏTTİ",
+          "Ətrafli":"Ətraflı",
+          "popopData":[
+            {
+              "text":" Azeronline MTK sahibləri üçün aşağıdakı xidmətləri təklif edir:"
+            },
+            {
+              "text":"Yüksək sürətli internet (ayrılmış internet xətti daxil)"
+            },
+            {
+              "text":"  Yüksək keyfiyyətli İPTV"
+            },
+            {
+              "text":" Şəhər nömrəsi (Bakı şəhər nömrəsini yerli Telekommunikasiya Qovşağına müraciət etməklə əldə etmək mümkün olacaq)"
+            },
+            {
+              "text":"Üstünlüklər və imkanlar:"
+            },
+            {
+              "text":"Müxtəlif kampaniyalar və loyallıq proqramı"
+            },
+            {
+              "text":" Sürətli quraşdırılma və keyfiyyətli xidmət"
+            },
+            {
+              "text":"300Mb/s-dək internet sürəti"
+            },
+            {
+              "text":" Limitsiz internet trafiki"
+            },
+            {
+              "text":" Statik İP"
+            },
+            {
+              "text":"200+ İPTV kanalı"
+            },
+            {
+              "text":" 24/7 aktiv müştəri xidmətləri"
+            },
+            {
+              "strong": [
+                {
+                  "text": "Daha ətraflı məlumat və sifariş üçün (+994) 12 450-2020 nömrəsinə və ya "
+                },
+                {
+                  "textLink": "business@azeronline.net",
+                  "link": "mailto:business@azeronline.net"
+                },
+                {
+                  "text": "e-poçt ünvanına müraciət edin."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Loyallıq":[
+    {
+      "logo":"Loyallıq",
+      "Arxiv":"Arxiv",
+      "ArxovPopop":[
+        {
+          "img":"https://azeronline.com/uploads/57bfea0377b2d250dea33e3177a8ae8c.jpg",
+          "text":"“3 alma”-dan endirim",
+          "Popop":[
+            {
+              "text":" “3 alma”-dan onlayn qaydada kitab alan Azeronline abunəçiləri, müvafiq Azeronline müştəri kodunu təqdim etdikdə, hər alınmış kitaba görə 10% endirim əldə edəcəklər."
+            },
+            {
+              "text":"Qeydlər:"
+            },
+            {
+              "text":""
+            },
+            {
+              "text":"Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən abunəçilərə şamil edilir."
+            },
+            {
+              "text":" 10% endirim yalnız Feacebook və İnstagram sosial şəbəkələri üzərində alınan kitablara və mütləq şəkildə Azeronline müştəri kodunu təqdim etməklə verilir. Əks halda endirim təqdim edilməyəcək."
+            },
+            {
+              "text":"Loyallıq proqramı 15.02.2021 tarixindən etibarən qüvvəyə minir və 15.09.2021 tarixinə kimi qüvvədədir."
+            }
+          ]
+        },
+        {
+          "img":"https://azeronline.com/uploads/c0325eb4564fd47c448d5d0f9100d518.jpg",
+          "text":"BİRBANK İLƏ AZERONLINE ENDİRİMİ",
+          "Popop":[
+            {
+              "text":"  Azeronline abunəçisi Kapital Bankının “BirBank” mobil tətbiqi üzərindən 10,000 bonus Ürəyə Azeronline internet xidmətlərinə 3 AZN endirim əldə edə bilər."
+            },
+            {
+              "text":"Qeydlər:"
+            },
+            {
+              "text":"Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən, internet xətti aktiv olan abunəçilərinə şamil edilir."
+            },
+            
+            {
+              "text":"“BirBank” mobil tətbiqinə daxil olmaq > Menu > Bonuslar > Ürəklər > Hədiyyələr > Azeronline İnternet xidmətlərinə 3 AZN endirim (10 000 ürək) > Almaq"
+            },
+            {
+              "text":" Loyallıq proqramı çərçivəsində endirim promo kodlar vasitəsi ilə təqdim olunur."
+            },
+             {
+              "text":" Ay ərzində Kapital Bankının “BirBank” mobil tətbiqi üzərindən yalnız 2 endirim əldə etmək mümkündür."
+            },
+            {
+              "text":" Əldə olunan promo kodların aktivləşdirmə qaydası:"
+            }
+
+          ]
+        }
+      ]
     }
   ]
 }
