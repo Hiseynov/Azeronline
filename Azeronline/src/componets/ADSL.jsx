@@ -1,12 +1,15 @@
 import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import CityPopop from "../Popops/CityPopop";
 
 function ADSL() {
   const [ADSLData, setADSLData] = useState([]);
   const [ADSLDataItem,setADSLDataItem] = useState('')
+  const [ADSLDaire,setADSLDaire] = useState('')
   const [ADSLDataPopop,setADSLDataPopop] = useState(false)
+  const [ADSLDairePopop,setADSLDairePopop] = useState(false)
 //   console.log(ADSLDataItem,'s');
   useEffect(() => {
     const ADSL1 = async () => {
@@ -47,9 +50,20 @@ function ADSL() {
                 <div className="ADSL-sertler">
                     <h3 onClick={()=>(setADSLDataItem(item.ADSlSertler),setADSLDataPopop(!ADSLDataPopop))} className="underline">{item.logoSertler}</h3>
                 </div>
-                {
-                    console.log(ADSLDataItem,'dsddf')
-                }
+                <div className="categoryesLink">
+            <ul>
+             
+              <li className="underline">
+                <a href="#Odenis">Ödəniş üsulları</a>
+              </li>
+             {
+              ADSLData.map(item=>item.Əhatədairəsi.map((item,id)=>(
+                <li onClick={()=>(setADSLDaire(item),setADSLDairePopop(!ADSLDairePopop))} className="underline" key={id}>{item.logo}</li>
+              )))
+             }
+              <li className="underline"><Link to={"/Login"}>Şəxsi kabinet</Link></li>
+            </ul>
+          </div>
               </>
             ))}
         </div>
@@ -57,6 +71,11 @@ function ADSL() {
       {
         ADSLDataPopop && (
             <CityPopop ADSLDataItem={ADSLDataItem} setADSLDataPopop={setADSLDataPopop}></CityPopop>
+        )
+      }
+      {
+        ADSLDairePopop && (
+            <CityPopop ADSLDaire={ADSLDaire} setADSLDairePopop={setADSLDairePopop}></CityPopop>
         )
       }
       

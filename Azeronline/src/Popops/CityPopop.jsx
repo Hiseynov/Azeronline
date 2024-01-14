@@ -4,8 +4,9 @@ import React, { useEffect, useState } from "react";
 function CityPopop(props) {
   const [Arxivedata, setArxiveData] = useState([]);
   const [ArxiveItemdata, setArxiveItemData] = useState("");
+  const [LoyaliqArxive, setLoyaliqArxive] = useState("");
   const [ArxivItem, setArxiveItem] = useState(false);
-
+  const [LoyaliqArxivItem, setLoyaliqArxivItem] = useState(false);
   const {
     city,
     setFirstCity,
@@ -30,6 +31,18 @@ function CityPopop(props) {
     IPTVSerlerItem,
     ADSLDataItem,
     setADSLDataPopop,
+    KorparativDataItem,
+    setKorparativDataPopop,
+    setLoyaliqDataPopop,
+    LoyaliqDataItem,
+    OdenisArxiveItem,
+    setOdenisArxivePopop,
+    OdenisDataItem,
+    setOdenisDataPopop,
+    setDaireCategory,
+    DaireData,
+    ADSLDaire,
+    setADSLDairePopop
   } = props;
   if (ArxivePopop) {
     useEffect(() => {
@@ -62,7 +75,16 @@ function CityPopop(props) {
               (setSertlerSimsimPopop && setSertlerSimsimPopop(false)) ||
               (setOpenIptv && setOpenIptv(false)) ||
               (setOpenIptvSertler && setOpenIptvSertler(false)) ||
-              (setADSLDataPopop && setADSLDataPopop(false))}
+              (setADSLDataPopop && setADSLDataPopop(false)) ||
+              (setKorparativDataPopop && setKorparativDataPopop(false)) ||
+              (setLoyaliqDataPopop && setLoyaliqDataPopop(false)) ||
+              (setLoyaliqArxivItem && setLoyaliqArxivItem(false)) ||
+              (setOdenisArxivePopop && setOdenisArxivePopop(false)) ||
+              (setOdenisDataPopop && setOdenisDataPopop(false)) ||
+              (setADSLDairePopop && setADSLDairePopop(false)) ||
+              (setDaireCategory && setDaireCategory(false))
+              
+              }
           </>
         )}
       ></div>
@@ -76,8 +98,16 @@ function CityPopop(props) {
             XidmetlerItem ||
             fiberoptikapopop ||
             SertlerItemData ||
-            IPTVKanalar
+            IPTVKanalar ||
+            KorparativDataItem ||
+            LoyaliqArxivItem ||
+            OdenisArxiveItem ||
+            OdenisDataItem ||
+            ADSLDaire ||
+            DaireData
               ? { width: "80%" }
+              : LoyaliqDataItem
+              ? { width: "37%" }
               : { width: "50%" }
           }
         >
@@ -121,7 +151,13 @@ function CityPopop(props) {
             SertlerItemData ||
             IPTVKanalar ||
             IPTVSerlerItem ||
-            ADSLDataItem) && (
+            ADSLDataItem ||
+            KorparativDataItem ||
+            LoyaliqDataItem ||
+            OdenisArxiveItem ||
+            OdenisDataItem ||
+            ADSLDaire ||
+            DaireData) && (
             <div className="Scool-container">
               <div className="ScroolLogo">
                 <div className="ScroolName">
@@ -135,6 +171,12 @@ function CityPopop(props) {
                       (IPTVKanalar && IPTVKanalar.logo) ||
                       (IPTVSerlerItem && IPTVSerlerItem.logo) ||
                       (ADSLDataItem && ADSLDataItem.map((item) => item.logo)) ||
+                      (KorparativDataItem && KorparativDataItem.logo) ||
+                      (LoyaliqArxivItem && LoyaliqArxive.text) ||
+                      (OdenisArxiveItem && OdenisArxiveItem.logo) ||
+                      (OdenisDataItem && OdenisDataItem.logo) ||
+                      (ADSLDaire && ADSLDaire.logo) ||
+                      (DaireData && DaireData.map(item =>item.logo)) ||
                       (!ArxivItem && <p>Arxiv</p>)}
                   </h3>{" "}
                   <span
@@ -150,7 +192,14 @@ function CityPopop(props) {
                       (setSertlerSimsimPopop && setSertlerSimsimPopop(false)) ||
                       (setOpenIptv && setOpenIptv(false)) ||
                       (setOpenIptvSertler && setOpenIptvSertler(false)) ||
-                      (setADSLDataPopop && setADSLDataPopop(false))
+                      (setADSLDataPopop && setADSLDataPopop(false)) ||
+                      (setKorparativDataPopop && setKorparativDataPopop(false)) ||
+                      (setLoyaliqDataPopop && setLoyaliqDataPopop(false)) ||
+                      (setLoyaliqArxivItem && setLoyaliqArxivItem(false)) ||
+                      (setOdenisArxivePopop && setOdenisArxivePopop(false)) ||
+                      (setOdenisDataPopop && setOdenisDataPopop(false)) ||
+                      (setADSLDairePopop && setADSLDairePopop(false)) ||
+                      (setDaireCategory && setDaireCategory(false))
                     }
                   >
                     X
@@ -401,21 +450,187 @@ function CityPopop(props) {
                         </table>
                       </div>
                       <div className="ADSLPopop-word">
-                        {
-                          item.data.map((item,id)=>(
-                            <>
-                                <p key={id}>{item.text}</p>
-                            </>
-                          ))
-                        }
+                        {item.data.map((item, id) => (
+                          <>
+                            <p key={id}>{item.text}</p>
+                          </>
+                        ))}
                       </div>
                     </div>
                   ))}
+                {KorparativDataItem && (
+                  <div className="KorporativPopop-container">
+                    {KorparativDataItem.popopData.map((item, id) => (
+                      <>
+                        {item.text && <p key={id}>{item.text}</p>}
+                        {item.strong && (
+                          <p>
+                            {item.strong &&
+                              item.strong.map((item, id) => (
+                                <>
+                                  {item.text && <span>{item.text} </span>}
+                                  {item.textLink && (
+                                    <a href={item.link}> {item.textLink} </a>
+                                  )}
+                                </>
+                              ))}
+                          </p>
+                        )}
+                      </>
+                    ))}
+                  </div>
+                )}
+                {LoyaliqDataItem && !LoyaliqArxivItem && (
+                  <div className="LoyaliqPopop-container">
+                    {LoyaliqDataItem.map((item, id) => (
+                      <div className="LoyaliqPopop-item" key={id}>
+                        <img src={item.img} />
+                        <p className="dashed"
+                          onClick={() => (
+                            setLoyaliqArxivItem(!LoyaliqArxivItem),
+                            setLoyaliqArxive(item)
+                          )}
+                        >
+                          {item.text}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {LoyaliqDataItem && LoyaliqArxivItem && (
+                  <div className="LoyaliqPopopItem">
+                    {LoyaliqArxive.Popop.map((item, id) => (
+                      <div className="LoyaligItemtext" key={id}>
+                        {item.text && <p>{item.text}</p>}
+                        {item.table && (
+                          <div className="Loyaliqtable">
+                            {item.table.map((item, id) => (
+                              <p key={id}>{item.text}</p>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {OdenisArxiveItem && (
+                  <div className="OdenisItem-container">
+                    {OdenisArxiveItem.Popop.map((item, id) => (
+                      <div key={id} className="OdenisItem-underline">
+                        <p> <b>
+                          <i className="fa fa-chevron-right"></i> {item.name}
+                        </b> </p>
+                       
+                        {item.item.map((i, id) => (
+                          <>
+                            {i.text && <p key={id}>{i.text}</p>}
+                            {i.b && (<b>{ i.b}</b>)}
+                            {i.table && (
+                              <table>
+                                {i.table.map((item, id) => (
+                                  <tr key={id}>
+                                    {item.td.map((i, ix) => (
+                                      <>
+                                        {i.th && <th>{i.th}</th>}
+                                        {i.text && <td key={ix}>{i.text}</td>}
+                                      </>
+                                    ))}
+                                  </tr>
+                                ))}
+                              </table>
+                            )}
+                            {i.span &&
+                              i.span.map((item, id) => (
+                                <>
+                                {item.b && (<b>{item.b}</b>)}
+                                  {item.strong && (
+                                    <b key={id}>{item.strong} </b>
+                                  )}
+                                  {item.category && (
+                                    <span className="dashed-container">
+                                      {item.category.map((i, ix) => (
+                                        <a className="dashed" key={ix} href={i.link}>
+                                          { i.text }
+                                        </a>
+                                      ))}
+                                    </span>
+                                  )}
+                                  {item.text && <span> { item.text}</span>}
+                                 {item.linkT && 
+                                 
+                                 (<a className="dashed" href={item.link}>{ item.linkT}</a>)}
+                                </>
+                              ))}
+                          </>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {
+                  OdenisDataItem && (
+                    <div className="OdenisDataItem-container">
+                      {
+                        OdenisDataItem.Popop.map((item,id)=>(
+                          <>
+                            {item.text && (
+                              <p key={id}>{item.text}</p>
+                            )}
+                            {
+                              item.table && (
+                                <table>
+                                  {
+                                    item.table.map((item,id)=>(
+                                      <tr key={id}>
+                                        <td>{item.text}</td>
+                                      </tr>
+                                    ))
+                                  }
+                                </table>
+                              )
+                            }
+                          </>
+                        ))
+                      }
+                    </div>
+                  )
+                }
+                {
+                  DaireData && DaireData.map((item,id)=>(
+                    <div key={id} className="Daire-container">
+                      {
+                        item.datacategory.map((item,id)=>(
+                          <p key={id}>
+                            {item.text && (<span>{item.text}</span>)}
+                            {item.p && (<><span>{item.p}</span> <img src={item.img}></img></>)}
+                          </p>
+                        ))
+                      }
+                    </div>
+                  ))
+                }
+                {
+                  ADSLDaire && (
+                    <div className="AdslDaire">
+                      {
+                        ADSLDaire.data.map((item,id)=>(
+                          <p key={id}>
+                            {item.text && (<><strong>{item.strong}</strong> <span>{item.text}</span></>)}
+                            {item.span && item.span.map((item,id)=>(
+                              <span key={id}> <strong>{item.strong}</strong> {item.text} </span>
+                            ))}
+                          </p>
+                          ))
+                      }
+                    </div>
+                  )
+                }
               </div>
             </div>
           )}
         </div>
       </div>
+
     </>
   );
 }

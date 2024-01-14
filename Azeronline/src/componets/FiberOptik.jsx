@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import CityPopop from "../Popops/CityPopop";
 
 function FiberOptik() {
@@ -7,12 +8,16 @@ function FiberOptik() {
     const [fiberobtikItemData,setFiberoptikItemData]= useState([])
     const [fiberoptikapopop,setfiberoptikapopop]=useState("")
     const [fiberoptikacategory,setfiberoptikacategory]=useState(false)
+    const [DaireCategory,setDaireCategory]=useState(false)
     const [sertlerPopop,setSertlerPopop]=useState(false) 
      const [SertlerData,setSertlerData]= useState([])
+     const [DaireData,setDaireData]= useState([])
+    // const [Dairepopop,setDairepopop]=useState("")
     const [SertlerItemData,setSertlerItemData]= useState([])
     const categories = ["Fərdi", "Biznes"];
   
     const [category, setCategory] = useState("Fərdi");
+    
     useEffect(() => {
         const fiberobtik = async () => {
           try {
@@ -33,6 +38,19 @@ function FiberOptik() {
             axios.get(`http://localhost:3305/SertlerFiberObtik`).then((e) => {
                 setSertlerData(e.data);
                 // setFiberoptikItemData(e.data.filter((x) => x.type === "Fərdi"));
+            });
+          } catch (error) {
+            console.log(error);
+          }
+        };
+    
+        fiberobtik();
+      }, []);
+      useEffect(() => {
+        const fiberobtik = async () => {
+          try {
+            axios.get(`http://localhost:3305/FiberobtikDaire`).then((e) => {
+                setDaireData(e.data);
             });
           } catch (error) {
             console.log(error);
@@ -105,13 +123,23 @@ function FiberOptik() {
                   }
                 </div>
             ):(
-             <div className="FiberOptik-sertler underline">
-              <h3>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe5I9WGUWssqWSmJCLB0mnlURYDS9kq-UroypCE_UxW3Vr7TQ/viewform">Qeydiyyat</a>
-              </h3>
-             </div>
+            ""
             )
           }
+          <div className="categoryesLink">
+            <ul>
+             
+              <li className="underline">
+                <a href="#Odenis">Ödəniş üsulları</a>
+              </li>
+             {
+              DaireData.map((item,id)=>(
+                <li className="underline" onClick={()=>(setDaireCategory(!DaireCategory))} key={id}>{item.logo}</li>
+              ))
+             }
+              <li className="underline"><Link to={"/Login"}>Şəxsi kabinet</Link></li>
+            </ul>
+          </div>
         </div>
       </div>
       {
@@ -122,6 +150,11 @@ function FiberOptik() {
       {
         sertlerPopop && (
             <CityPopop SertlerItemData={SertlerItemData} setSertlerPopop={setSertlerPopop} ></CityPopop>
+        )
+      }   
+      {
+        DaireCategory && (
+            <CityPopop setDaireCategory={setDaireCategory} DaireData={DaireData} ></CityPopop>
         )
       }
     </>

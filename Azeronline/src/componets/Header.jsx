@@ -2,11 +2,17 @@ import React, { useEffect } from 'react'
 import axios from "axios";
 import { useState } from 'react';
 import CityPopop from '../Popops/CityPopop';
+import { Link } from 'react-router-dom';
 
 function Header() {
     const [city , setcity]= useState([])
+    const [BasketData , setBasketData]= useState([])
     const [openpop,setopenPop] = useState(false)
+    const [activeBasket,setactiveBasket] = useState(false)
     const [firstCity,setFirstCity]= useState("Baki")
+    const [userName,setUserName] = useState(localStorage.getItem("user")?localStorage.getItem("user"):"Sexsi kabinet")
+  const [ac, setac] = useState(false);
+
     useEffect(()=>{
 
         const City = async () => {
@@ -22,24 +28,73 @@ function Header() {
         
         City();
       },[])
-     console.log(city);
+      useEffect(()=>{
+
+        const City = async () => {
+          try {
+           axios.get(`http://localhost:3305/BasketMenu`).then((e)=>{
+           
+           setBasketData(e.data)
+           })
+          } catch (error) {
+            console.log(error);
+          }
+        };
+        
+        City();
+      },[])
   return (
     <>
       <header id="header">
         <div className="header-container">
             <div className="header-container-left">
-                <div className="header-logo">
+             <div className="header-container-left-logo">
+             <Link to={'/'} className="header-logo">
                     <img src="https://azeronline.com/uploads/2ad5c1785a6dbdae54cf32afe7ce066b.jpg" alt="" />
-                </div>
+                </Link>
                 <div className="header-popop">
                     <button>Taksitli Ödəmə</button>
                 </div>
-            </div>
-            <div className="header-container-center">
+             </div>
+                <div className="header-container-center">
                 <ul>
                     <li onClick={()=>setopenPop(!openpop)}><i className='fa fa-map-marker'></i> <span >{firstCity}</span></li>
-                    <li><a href="tel:2020"><i className='fa fa-mobile' ></i> <span>2020 </span> <b>(Azercell abunəçiləri üçün)</b></a></li>
-                    <li><a href="tel:8220"><i className='fa fa-phone'></i> <span>8220</span></a></li>
+                    {/* <li><a href="tel:2020"><i className='fa fa-mobile' ></i> <span>2020 </span> <b>(Azercell abunəçiləri üçün)</b></a></li> */}
+                    {/* <li><a href="tel:8220"><i className='fa fa-phone'></i> <span>8220</span></a></li> */}
+                    <li style={
+                ac
+                  ? { borderRadius: "20px 20px 0 0" }
+                  : { borderRadius: "20px" }
+              } onClick={()=>setac(!ac)} className='sexsi'><i className="fa-solid fa-user"></i> {userName}
+                    {ac && (
+                <div className="kabinet-gizli">
+                  {localStorage.getItem("user") ? (
+                    <p
+                      style={{ color: "red" }}
+                      onClick={() => (
+                        localStorage.removeItem("user"), location.reload()
+                      )}
+                    >
+                      {" "}
+                      <strong style={{ color: "red" }}>
+                        <i className="fa-solid fa-right-from-bracket"></i> Sexsi kabinetten cixis
+                      </strong>{" "}
+                      {/*  */}
+                    </p>
+                  ) : (
+                    <p>
+                      <Link  style={{ color: "#80C132" }} to={"/Login"}>
+                        <strong style={{ color: "#80C132" }}>
+                          <i className="fa-solid fa-right-from-bracket"></i> Sexsi kabinete giris
+                        </strong>{" "}
+                        {/*  */}
+                      </Link>
+                    </p>
+                  )}
+                </div>
+              )}
+                    </li>
+
                     <li className='Icon'>
                         <a href="https://www.facebook.com/azeronline"><i className='fa fa-facebook-official'></i></a>
                         <a href="https://www.instagram.com/azeronlinebm/"><i className='fa fa-instagram'></i></a>
@@ -47,10 +102,26 @@ function Header() {
                 </ul>
 
             </div>
+            </div>
             <div className="header-container-right">
-                <div className='basket-left basket'></div>
-                <div className='basket-center basket'></div>
-                <div className='basket-right basket'></div>
+
+                  <div onClick={()=>(setactiveBasket(!activeBasket))} className={`BasketMenu ${activeBasket?'basketActive':''}` }>
+                 <span className='basket-left basket'></span>
+                <span className='basket-center basket'></span>
+                <span className='basket-right basket'></span>
+              </div>
+                   <div className={`MenuText ${activeBasket?"":"hidden"}`}>
+                    {
+                      BasketData.map((item,id)=>(
+                        <p key={id}>
+                         
+                           <a className='underline' href={`/${item.link}`}>{item.text}</a>
+                        </p>
+                      ))
+                    }
+                  </div>
+             
+               
             </div>
 
         </div>

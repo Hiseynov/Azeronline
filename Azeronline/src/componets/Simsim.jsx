@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import CityPopop from "../Popops/CityPopop";
 
 function Simsim() {
@@ -97,6 +98,16 @@ function Simsim() {
                 {item.logo}
               </h3>
             ))}
+          </div>
+          <div className="categoryesLink categoryesLinkB">
+            <ul>
+             
+              <li className="underlineB">
+                <a href="#Odenis">Ödəniş üsulları</a>
+              </li>
+           
+              <li className="underlineB"><Link to={"/Login"}>Şəxsi kabinet</Link></li>
+            </ul>
           </div>
         </div>
       </div>

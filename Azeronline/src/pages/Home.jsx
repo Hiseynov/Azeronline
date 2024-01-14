@@ -23,6 +23,9 @@ import Simsim from "../componets/Simsim";
 import IPTV from "../componets/IPTV";
 import ADSL from "../componets/ADSL";
 import Korporativ from "../componets/Korporativ";
+import Loyallıq from "../componets/Loyallıq";
+import Odenis from "../componets/Odenis";
+import ScroolTop from "../componets/ScroolTop";
 function Home() {
   const [Scroolpopop, setScroolPopop] = useState(false);
   const [ScroolData, setScroolData] = useState([]);
@@ -131,7 +134,7 @@ function Home() {
                 stroke-width="2"
                 version="1.2"
                 viewbox="0 0 1000 783"
-                width="auto"
+                width="1000"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 {MapData.map((item) => (
@@ -148,9 +151,12 @@ function Home() {
                   ></path>
                 ))}
 
-                <circle cx="653.1" cy="92.6" id="0"></circle>
-                <circle cx="590.6" cy="679.6" id="1"></circle>
-                <circle cx="582" cy="673.9" id="2"></circle>
+                {/* <circle cx="653.1" cy="92.6" id="0" r="50"></circle>
+                <circle cx="590.6" cy="679.6" id="1" r="50"></circle>
+                <circle cx="582" cy="673.9" id="2" r="50"></circle> */}
+
+               
+               
               </svg>
       
             </div> 
@@ -204,6 +210,13 @@ function Home() {
         <section id="Korporativ">
           <Korporativ></Korporativ>
         </section>
+        <section id="Loyallıq" >
+          <Loyallıq></Loyallıq>
+        </section>
+        <section id="Odenis">
+          <Odenis></Odenis>
+        </section>
+        <ScroolTop></ScroolTop>
     </>
   );
 }

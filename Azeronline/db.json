@@ -1,24 +1,61 @@
 {
+  "user": [
+    {
+      "login": "Rauf21",
+      "id": "Rauf21",
+      "name": "Anar Huseynov",
+      "password": "111",
+      "email": "anarhus3ynov@mail.ru",
+      "phone": "+994506041905",
+      "country": "",
+      "address": "",
+      "gender": "male",
+      "karzina": []
+    }
+  ],
   "PopopCity": [
     {
       "logo": "Regionu seçin",
       "Regions": [
-        { "city": "Baki" },
-        { "city": "Abşeron" },
-        { "city": "Xırdalan" },
-        { "city": "Masazır" },
-        { "city": "Sumqayıt" },
-        { "city": "Şirvan" },
-        { "city": "Tovuz" },
-        { "city": "Zərdab" },
-        { "city": "Gədəbəy" },
-        { "city": "İmişli" },
-        { "city": "Şəmkir" },
-        { "city": "Digər regionlar" }
+        {
+          "city": "Baki"
+        },
+        {
+          "city": "Abşeron"
+        },
+        {
+          "city": "Xırdalan"
+        },
+        {
+          "city": "Masazır"
+        },
+        {
+          "city": "Sumqayıt"
+        },
+        {
+          "city": "Şirvan"
+        },
+        {
+          "city": "Tovuz"
+        },
+        {
+          "city": "Zərdab"
+        },
+        {
+          "city": "Gədəbəy"
+        },
+        {
+          "city": "İmişli"
+        },
+        {
+          "city": "Şəmkir"
+        },
+        {
+          "city": "Digər regionlar"
+        }
       ]
     }
   ],
-
   "ScroolData": [
     {
       "img": "https://azeronline.com/uploads/34a2f69577dc08e088402e7ac39bcb60.jpg",
@@ -233,7 +270,6 @@
     {
       "id": "10",
       "logo": "Balakən",
-
       "type": "2",
       "path": "M331 13.7l1.2 5.2-2.4 7.9-5.8 6.2-6.6 4.7-5.3 3.4-5 4-2.8 6.4-2 7-3.9 5.2-5.1 3.5-5.9 2-5.9 1.3-9.3 6.8-5.2 0.5-5.1-2.9-4.1-0.9-0.3-1.7-3.8-7.2-0.4-1.3-2.3 0.1-1.2 1.7-0.8 2.1-1.5 1.2-4.6-3.8-2.2-10.3-0.1-11.6 1.7-7.8 3.2-3.5 3.8-0.4 8 1.8 3.5-0.3 2.7-1.4 2.5-2.2 7.3-9 3.7-5.9 6.5-13.5 3.7 1 4.6-0.2 7.8 1.1 3.1 1.8 1 4.3-0.8 9.3 0.9 3.9 3 2.6 3.3-0.1 2.9-1.9 5.6-4.9 3.5-1.2 6.9-1.4 2-1.6z"
     },
@@ -468,7 +504,6 @@
       "id": "30",
       "logo": "Laçın",
       "type": "2",
-
       "path": "M302.2 482l1.7 6.9 1.1 6.9-2.9 5.7-2.3 6.1 0.7 5.9 3.8 1.4 3.3 1.6 2.9 2.6 7.1-0.8 5.3-8.9 4.6-1.6 4.7 0.5 2.4 4.8 0.9 6.3-7.7 1.3-4.5 5.2 2.9 3.2 1 5.7-3.2 4.7-4.7 3.2-6.7 4.7-6.7 5.2-7.7-0.9-6.5-4.2 2.1-1 1.2-1.6 0.1-2.1-1.2-2.3 0-3.7 2-1.8 2.5-1.6 1.5-2.8-0.5-3.6-2.1-2.9-2.8-1.8-2.7-0.7-10.8 1.1-3.4-0.6-2.5-1.9-4-5.4-2.5-2-5.8-0.4-11.6 6-6 1.2-3.8-1.2-2.5-2.4-4-7.6-2.4-3-3-1.7-6.4-1.9-5.4-4.3-6.6-13.4-4.6-4.5-10.8-3.3-5.6-2.9 3.2-2.5 6.7-4.8 6.2-5.6 3.2-7.4 3.4-5.4 4.4 3.6 4.3 4.8 5.8-0.7 6-1.9 12.3-1.8 12-4.1 7.3-3.2 7.7-1.2 7.2-2.6 7.1-3.2-2.3 6.7 1.3 5.7 3.9 2.6 3.6 3.4 5.9 12.3 2.9 13.9z"
     },
     {
@@ -575,21 +610,18 @@
       "id": "38",
       "logo": "Oğuz",
       "type": "2",
-
       "path": "M499.1 156.8l-0.3 2.7-0.1 5.9 1.3 5.3-1.5 5.3-1.3 5.8-4.8 10.7-5.3 9.7 0.7 5.3-0.6 5.5-5.7 10-3.5 13.1-0.2 13.7-16.4-8.7-15.2-11.7-2.9-3.3-2.3-4-0.9-4.9-1-4-2.4-0.2-2.5 0.8-1.6-2.1 0.7-3-3.8-4.3-2.8-5.3 2-9.2 3.8-8.4 7.2-15.7 2-12.2 1.5-9.2 1.4 0.5 17.7 1.7 3.7 1.3 4.8 6.8 3.1 2.4 3.5 0.1 6.1-4.1 3.3-1.3 3.4 0.4 8.9 4.6z"
     },
     {
       "id": "38",
       "logo": "Oğuz",
       "type": "2",
-
       "path": "M499.1 156.8l-0.3 2.7-0.1 5.9 1.3 5.3-1.5 5.3-1.3 5.8-4.8 10.7-5.3 9.7 0.7 5.3-0.6 5.5-5.7 10-3.5 13.1-0.2 13.7-16.4-8.7-15.2-11.7-2.9-3.3-2.3-4-0.9-4.9-1-4-2.4-0.2-2.5 0.8-1.6-2.1 0.7-3-3.8-4.3-2.8-5.3 2-9.2 3.8-8.4 7.2-15.7 2-12.2 1.5-9.2 1.4 0.5 17.7 1.7 3.7 1.3 4.8 6.8 3.1 2.4 3.5 0.1 6.1-4.1 3.3-1.3 3.4 0.4 8.9 4.6z"
     },
     {
       "id": "39",
       "logo": "Ordubad",
       "type": "2",
-
       "path": "M170.5 662.6l3.2-5.6-5.1-5.2-6.1-4.4-0.4-2.2 0.8-2.1 0.6-4 1-3.6 7.2-9.1 6-13.1 1.6-4.2 1.1-4.3 0.8-3.8 1.1-3.5 3.6-3.8 3.4-4 4-5.2 9.7 4.8 3.5 3.3 1.1 1.8 0.4 1.6-0.4 1.6-5.2 6.9-1.1 5.6 1.6 5.8 3.6 6 4.4 6.3 3.5 7 8.8 24.9 10 19-1.7 0.2-9.9-2.5-11.3-5.1-35.9-7.6-3.9-1.5z"
     },
     {
@@ -650,7 +682,6 @@
       "id": "45",
       "logo": "Qobustan",
       "type": "2",
-
       "path": "M766.6 315l-3.6 6.6-4.7 4.8-4.9 3.9-5.1 2.3-5.4 1-4.9 2.9-2.6 4.9-3.4 3.6-5.9 1.9-8.5 8.9-3.7 3.8-3.1 3.4-8.7-5.9-5.9-2.4-9.3 1-8.4-4.6-6.8 0.8-6.6 0.2-1.1-3.4 4.8-2.7 3-2.6 1-4.5 4-8 1-3.7-2.1-3.2-0.7-3.2 0.3-3.9-0.7-4.9-1.2-4.6 0-4.2-0.8-3.8-2.6-2.1-1.6-2.8 2.6-4.4 3-4.2-0.6-9.8 2.2-9.5 6.3-5 7.1-4.1 9.8 2.9 9.2 6.9 4 3.8 3.7 4.8 6.6 7.3 7.5 5.6 9.2 3.2 16.5 17.1 11.1 5.9z"
     },
     {
@@ -685,14 +716,12 @@
       "id": "48",
       "logo": "Sədərək",
       "type": "2",
-
       "path": "M9.4 510.2l-2.4-1.5-2.4-3.4-1.9-8.4-1.7-2.8 4.8-2.1 8-1.4 7.4 0.1 5.8-1.4 4.5-2.5 0 1.3-3.7 4.5-6.7 2-7 6.9-4.7 8.7z"
     },
     {
       "id": "49",
       "logo": "Şahbuz",
       "type": "2",
-
       "path": "M169.8 570.2l-5.2 6.2-3.6 4.5-4.3-0.8-3.8-4.1-4.9 2.7-7.5 2.9-7.3 4.2-2.9 0.5-1.6-3 0.4-4.4-3.6-4.6-7.9-4-7.6-3.7-1.8-4.8-1.5-4.6-3.7-1.5-2.6-2 4.1-6.3 5.5-4.6 1.8-2.4 1.8 1.1 1.9 0.3 2-0.4 3.7-1.7 13.7-8.8 4.6-1.9 21.8-5.3 4-0.1 4.7 1.8 3.9 2.8 1.5 2.8 0 3.8-0.5 5.6 1.5 10.1-0.7 3.5-5.8 9.5-1.1 4.4 1 2.3z"
     },
     {
@@ -741,7 +770,6 @@
       "id": "52",
       "logo": "Şərur",
       "type": "2",
-
       "path": "M68.1 524.6l-3.7 11.8-3.1 13-5.6 9.1-7.5 5.5-6.1-4.2-1.6-2.6-1.3-0.4-2.7-0.1-4.4-3.2-0.6-1.5 1.4-2.7-3.6-3.2-2.1-4.4-5.1-21.3-2-4.8-3.6-2.6 1.2-1.6-4-0.1-3.6-0.8-0.7-0.3 4.7-8.7 7-6.9 6.7-2 3.7-4.5 0-1.3 1-0.6 6.3-4.9 6.4-2.2 5.8 3 12.5 16.1 1.8 3.7 0.7 4.1-0.2 5.2-1.7 8 0.7 3.2 3.3 2.2z"
     },
     {
@@ -778,7 +806,6 @@
           "text": "Fiber Optik və Simsiz&nbsp;&nbsp;İnternet"
         }
       ],
-
       "path": "M751.1 172.1l1 2.4 2.9 16.2 8.2 13.6 20.4 23.3 1.5 2.1-0.8 0.3-6.8-0.1-6.6 1.1-8 2.2-8.3-0.7-7.2-2.6-6.8-4.4-4.9-1.8-4.2-3-1.2-8.4-3.8-3.2-3.7 1.2-2.7 3.1-0.8 3.6-1.1 3.3-5.6 3.3-6.1 2-5.6 2-5.7 0.4-2.2-10.4-1.4-10.3 2.5-6 4.9-3.5 6.7-1.2 2.5-3.1 1.7-3.9-0.1-8.5-3.1-7.7 5.6-7.9 12.3 0 5.4-2.3 5.4-1.7 6.5 5.4 6.8 5.4 2.4-0.2z"
     },
     {
@@ -849,14 +876,12 @@
           "text": "ADSL İnternet"
         }
       ],
-
       "path": "M667.1 227.4l8.8 4.3 8.6 4.7-2.2 11.4 6.7 9.7-7.1 4.1-6.3 5-2.2 9.5 0.6 9.8-3 4.2-2.6 4.4 1.6 2.8 2.6 2.1 0.8 3.8 0 4.2 1.2 4.6 0.7 4.9-0.3 3.9 0.7 3.2 2.1 3.2-1 3.7-4 8-1 4.5-3 2.6-4.8 2.7 1.1 3.4 6.6-0.2 6.8-0.8-2.2 8.7-5 5.6-5.6 2.9-5.8-2.9-7.4-3.5-6.9-4.2-6.8-1.9-6.9-1.7 3.8-4.5 3.3-4.6 1.1-10.9 7.4-6 8.7-3.8 3.5-1.8 2.7-3.2-2.9-2.4-3.8-1.8-3.5-2.6-3.7-2-11.8-0.3-6.5-2.7-4.8-6.3 1.9-9.3 7.4-7.1 2.5-3.7-0.1-3.9 2.1-4.2 1.8-4.2-3.2-7.1-5.3-5.4-1.2-3-1.5-3.1 5.4-9.8-1.2-10-8.9-6.3-7.6-8.8 13.8 0.2 13.4 3.8 11 4.7 11.4 3.4z"
     },
     {
       "id": "59",
       "logo": "Samux",
       "type": "1",
-
       "path": "M315 179.1l5 3.8 7.8 0.3 6.8 4.1 0.7 6.3 1 6.6 2.5 5.2 0.8 6-7.6 8.6-7.4 8.8-8.6 8.6-8.8 8.3-3.4 2-1.5 3.2 0.9 4.6-3.1 3.2-6.8 6.4-3 10.4-10-0.9-3.5-8.6-8.7-0.2-5.7-13.2-5.1-11.2-3-7.9 1.7-8 1.4-3.9 0.8-4.1 1.3-5.3 2.6-4.4 0.9-8-3.9-7.6-7-9.8-7.2-9.6-9.6-4.7-9.4-5.4-0.9-0.6 4.3-2.8 3.8-0.9 12.8 0 3.1 1 2.7 2.7 5 6.2 10 9.2 3.5 2.1 10.2 3.3 2.8 2.5 4.8 6.4 3 1.9 3.7-0.1 1.5-2.4 1-3.6 1.9-3.6 3.6-2.3 3.4 0.4 3.2 0.9 3.4-0.6 2.3-3.3z"
     },
     {
@@ -871,7 +896,6 @@
           "text": "ADSL, Fiber Optik və Simsiz&nbsp;İnternet"
         }
       ],
-
       "path": "M710 447.3l-2.4 2.3-1.3-0.5-1.1-1.2-3.2-1.5-1.2-1.6-1.3-3 0.1-3 0.5-6.6 2.5-0.8 3.7 1 4.5 0.2 2-0.3 1.6 1 0.7 1.9-0.2 6.6-2.3 2.7-2.6 2.8z"
     },
     {
@@ -904,7 +928,6 @@
       "id": "63",
       "logo": "Tovuz",
       "type": "1",
-
       "span": [
         {
           "text": "Fiber optik İnternet"
@@ -949,7 +972,6 @@
           "text": "Simsiz İnternet"
         }
       ],
-
       "path": "M735.1 122.7l-1 0.3-9.1 0.3-8.9-1.6-8-0.7-7.8 3-5.9-0.4-5.4-2-5.4 2.5-5.5 0.6-3.4-3-4.1 1.5-4.2 1-3-4.1-3.1-6.2-3.1-6.3-4.4-6.8-3.5-6.8-2.1-9.5-3.2-6.9 2.8-4 0.1-4.5-4.2-1.2-4.6-0.4-3.1-11.1 3.9-12-4.5-5-4.4 0.4 11.7-15.2 8.2-13.3 1.8 1.6 5.2 3.2 6 5.5 15.1 20.9 5.8 6 2.4 3.5 1 5.6 11.6 13.2 6.5 14.1 3.5 1.3 2.9 3 2.1 3.5 1.5 3 5.5 8.1 4.2 1.3 1.4 0.8 2.6 3.8 6.1 13z"
     },
     {
@@ -968,14 +990,12 @@
       "id": "69",
       "logo": "Xocavənd",
       "type": "2",
-
       "path": "M423 459.9l4.4 9.8 8.5 5.4 2.6 8.5-4.8 9.4-6.5 1.6-6.6 1.3-5.2 1.4-5.1 0.9-3.2 1.8-3 3.2-3.8 2.2-3.9 1.6-7.8 0.6-3 5.1 6.4 1.3 5.5-0.8-3.9 4.9-7 1.6-2.8 3.3 1.1 3.7 3.8-0.4 3.5-3 5-2.1 1.3 4.9-1.7 2.4-1.4 2.6 1 4.4 0.8 4.3-3 0.9-3.2 0.6 0 2.4-1.3 2.9-3.6 5.7 2.1 6.8-0.1 2.9-2.6 0.1-3.4 0.5-2.9 2.7-4.3 0.7-2.2-4-5.7-3.2-5-4.3 0.2-3.1-1.1-2.5-5.3-2-4.3-2.9-3.7 2.5 2.6 7.1-2.2 7.2-6.3-0.6-6.8-2.6 3.1-4.5 1.6-5.2-2-3.4-3-2.2-7.2 1.9-4.1-0.7-4.2-0.8 4.7-3.2 3.2-4.7-1-5.7-2.9-3.2 4.5-5.2 7.7-1.3 4.6-7.3 4.6-7.5 4.3 3.9 4.5 2.5 5.8-4.2 5.3-5-2.1-8.6-8.6-9.4-2-4.2 1.5-2.9 2.1-3.1 6.4-3.3 6.7-2.6 3.4-5.4 1.8-6.4 7.4-1.8 7.1 3.5 9.3 6.3 9.7 2.3 2.2-3.5 2.7-3.6 5.4-0.6 5.4 1.4z"
     },
     {
       "id": "70",
       "logo": "Yardımlı",
       "type": "1",
-
       "path": "M632.6 652.4l3.2 8.7 8.7 1.3-14.9 10.5-15.6 9.3-3.5 2.9-3.8 2.4-3.2 3.3-2.9 3.9-1.6 4.2-0.8 4.8-2.3 2.8-2.4 3.6-3.9 2-0.4-1.8-2.2-1.9-22.6-11.2-11-8.9-3.4-6.2-0.4-9 1.6-2.5 8.9-5.6 0.5-1.4-0.1-1.6 0.6-1.5 31.5-5.5 7-4.4 1.6-2.4 1.4-2.9 11.4-0.5 4-1.3 4-0.9 5.9 3.9 4.7 5.9z"
     },
     {
@@ -990,7 +1010,6 @@
           "text": "ADSL, Fiber Optik və Simsiz&nbsp;İnternet"
         }
       ],
-
       "path": "M368.6 223.8l15.5 7.9 15.3 8.6 13 5.4 13 5.7-4.8 18.2-2.2 7.6-0.1 8.1 2.2 6.8-1.8 6.9-2.7 3.3-1.1 1.3-4.8 2.8-5.9 13.1-10 1.6-10.6 1.6-8.3 12.5-3-3.4-2.6-3.8-0.8-3.7-1.3-3.5 3.9-1.8 1.9-4.8 0.7-3.4-1.4-2.1-5.3 0.8-4.8-1.6-1-9.8 0.3-9.6-4.4-4.9-5.9-0.5-6.8 4.2-3.1-4.9 5.3-7.3 4.2-6.9-5.7-4-6.8-1-4-6.5 3-8.8 1.4-9.1-1.1-18.4 1.6-9 14.7 4.5 14.3 7.9z m3.8 29.4l-5.4 2.9 8.1 9.6 13.8-5.7-1.6-3.1-1.8-2.4-3.3-0.1-3.4 1.2-6.4-2.4z m39.4 45.1l-0.4-1.4-0.1-2.7 0.4-1.6 1.7-4 0.3-2.9-0.8-0.7-1.9-0.2-3.7 0.2-7.8 0-3 4.8 2.4 7.3 5.4 3.2 5.9 0.3 1.6-2.3z"
     },
     {
@@ -1025,7 +1044,6 @@
           "text": "ADSL İnternet"
         }
       ],
-
       "path": "M385.4 77.2l-6.8 9.6-10.1 2.2-11-3.5-11.3-0.6-8.8 2.9-5.6 9.1-5.6 12.3-7.5 9.6-1.3 6.4-1.1-0.8-2.7 1.1-2.7-6.4-8.4-5-16.6-7-8-7.5-3.4-0.8-2-1-8.9-6.2-3-3.7-1.5-5-1.3-8.9 4.1 0.9 5.1 2.9 5.2-0.5 9.3-6.8 5.9-1.3 5.9-2 5.1-3.5 3.9-5.2 2-7 2.8-6.4 5-4 5.3-3.4 6.6-4.7 5.8-6.2 2.4-7.9-1.2-5.2 1.1-0.8 2.8-3 1.5 0.1 0.7 2.5 1.5 9 0.9 3.1 1.7 2.7 11.2 10.4 2.9 1.8 2.2 0.6 4.4 0.6 2 1 0.8 1.3 0.9 4.2 0.6 1.7 2.4 3.2 8.4 7.2 4.3 6.9 1.4 6.8 2.5 4.2 0.2 0z"
     },
     {
@@ -1147,52 +1165,164 @@
       ],
       "table": [
         {
-          "td": [{ "text": "Şəmkir" }, { "text": "503001010" }]
+          "td": [
+            {
+              "text": "Şəmkir"
+            },
+            {
+              "text": "503001010"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Ağcəbədi" }, { "text": "707833839" }]
+          "td": [
+            {
+              "text": "Ağcəbədi"
+            },
+            {
+              "text": "707833839"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Lənkaran" }, { "text": "502954024" }]
+          "td": [
+            {
+              "text": "Lənkaran"
+            },
+            {
+              "text": "502954024"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Göyçay" }, { "text": "506492484" }]
+          "td": [
+            {
+              "text": "Göyçay"
+            },
+            {
+              "text": "506492484"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Quba" }, { "text": "502002211" }]
+          "td": [
+            {
+              "text": "Quba"
+            },
+            {
+              "text": "502002211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Xaçmaz" }, { "text": "557251211" }]
+          "td": [
+            {
+              "text": "Xaçmaz"
+            },
+            {
+              "text": "557251211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Şəki" }, { "text": "555890107" }]
+          "td": [
+            {
+              "text": "Şəki"
+            },
+            {
+              "text": "555890107"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Siyəzən" }, { "text": "702270058" }]
+          "td": [
+            {
+              "text": "Siyəzən"
+            },
+            {
+              "text": "702270058"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Səlyan" }, { "text": "502250907" }]
+          "td": [
+            {
+              "text": "Səlyan"
+            },
+            {
+              "text": "502250907"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Neftçala" }, { "text": "502250907" }]
+          "td": [
+            {
+              "text": "Neftçala"
+            },
+            {
+              "text": "502250907"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Kürdəmir" }, { "text": "507224545" }]
+          "td": [
+            {
+              "text": "Kürdəmir"
+            },
+            {
+              "text": "507224545"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Gəncə" }, { "text": "504060209" }]
+          "td": [
+            {
+              "text": "Gəncə"
+            },
+            {
+              "text": "504060209"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Qusar" }, { "text": "502002211" }]
+          "td": [
+            {
+              "text": "Qusar"
+            },
+            {
+              "text": "502002211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Şabran" }, { "text": "702270058" }]
+          "td": [
+            {
+              "text": "Şabran"
+            },
+            {
+              "text": "702270058"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Bərdə" }, { "text": "707833839" }]
+          "td": [
+            {
+              "text": "Bərdə"
+            },
+            {
+              "text": "707833839"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Ucar" }, { "text": "555125048" }]
+          "td": [
+            {
+              "text": "Ucar"
+            },
+            {
+              "text": "555125048"
+            }
+          ]
         }
       ]
     },
@@ -1507,52 +1637,164 @@
       ],
       "table": [
         {
-          "td": [{ "text": "Şəmkir" }, { "text": "503001010" }]
+          "td": [
+            {
+              "text": "Şəmkir"
+            },
+            {
+              "text": "503001010"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Ağcəbədi" }, { "text": "707833839" }]
+          "td": [
+            {
+              "text": "Ağcəbədi"
+            },
+            {
+              "text": "707833839"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Lənkaran" }, { "text": "502954024" }]
+          "td": [
+            {
+              "text": "Lənkaran"
+            },
+            {
+              "text": "502954024"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Göyçay" }, { "text": "506492484" }]
+          "td": [
+            {
+              "text": "Göyçay"
+            },
+            {
+              "text": "506492484"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Quba" }, { "text": "502002211" }]
+          "td": [
+            {
+              "text": "Quba"
+            },
+            {
+              "text": "502002211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Xaçmaz" }, { "text": "557251211" }]
+          "td": [
+            {
+              "text": "Xaçmaz"
+            },
+            {
+              "text": "557251211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Şəki" }, { "text": "555890107" }]
+          "td": [
+            {
+              "text": "Şəki"
+            },
+            {
+              "text": "555890107"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Siyəzən" }, { "text": "702270058" }]
+          "td": [
+            {
+              "text": "Siyəzən"
+            },
+            {
+              "text": "702270058"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Səlyan" }, { "text": "502250907" }]
+          "td": [
+            {
+              "text": "Səlyan"
+            },
+            {
+              "text": "502250907"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Neftçala" }, { "text": "502250907" }]
+          "td": [
+            {
+              "text": "Neftçala"
+            },
+            {
+              "text": "502250907"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Kürdəmir" }, { "text": "507224545" }]
+          "td": [
+            {
+              "text": "Kürdəmir"
+            },
+            {
+              "text": "507224545"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Gəncə" }, { "text": "504060209" }]
+          "td": [
+            {
+              "text": "Gəncə"
+            },
+            {
+              "text": "504060209"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Qusar" }, { "text": "502002211" }]
+          "td": [
+            {
+              "text": "Qusar"
+            },
+            {
+              "text": "502002211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Şabran" }, { "text": "702270058" }]
+          "td": [
+            {
+              "text": "Şabran"
+            },
+            {
+              "text": "702270058"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Bərdə" }, { "text": "707833839" }]
+          "td": [
+            {
+              "text": "Bərdə"
+            },
+            {
+              "text": "707833839"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Ucar" }, { "text": "555125048" }]
+          "td": [
+            {
+              "text": "Ucar"
+            },
+            {
+              "text": "555125048"
+            }
+          ]
         }
       ]
     },
@@ -1785,16 +2027,44 @@
       ],
       "table": [
         {
-          "td": [{ "text": "Ağcəbədi" }, { "text": "707833839" }]
+          "td": [
+            {
+              "text": "Ağcəbədi"
+            },
+            {
+              "text": "707833839"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Göyçay" }, { "text": "506492484" }]
+          "td": [
+            {
+              "text": "Göyçay"
+            },
+            {
+              "text": "506492484"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Quba" }, { "text": "502002211" }]
+          "td": [
+            {
+              "text": "Quba"
+            },
+            {
+              "text": "502002211"
+            }
+          ]
         },
         {
-          "td": [{ "text": "Xaçmaz" }, { "text": "557251211" }]
+          "td": [
+            {
+              "text": "Xaçmaz"
+            },
+            {
+              "text": "557251211"
+            }
+          ]
         }
       ]
     },
@@ -1880,15 +2150,25 @@
           "table": [
             {
               "td": [
-                { "textTh": "Ölkə" },
-                { "textTh": "TV Sayı" },
-                { "textTh": "Kanallar" }
+                {
+                  "textTh": "Ölkə"
+                },
+                {
+                  "textTh": "TV Sayı"
+                },
+                {
+                  "textTh": "Kanallar"
+                }
               ]
             },
             {
               "td": [
-                { "text": "Azərbaycan" },
-                { "text": "21" },
+                {
+                  "text": "Azərbaycan"
+                },
+                {
+                  "text": "21"
+                },
                 {
                   "Kanalar": [
                     {
@@ -1902,8 +2182,12 @@
             },
             {
               "td": [
-                { "text": "Türkiyə" },
-                { "text": "37" },
+                {
+                  "text": "Türkiyə"
+                },
+                {
+                  "text": "37"
+                },
                 {
                   "Kanalar": [
                     {
@@ -1917,8 +2201,12 @@
             },
             {
               "td": [
-                { "text": "Rusiya" },
-                { "text": "96" },
+                {
+                  "text": "Rusiya"
+                },
+                {
+                  "text": "96"
+                },
                 {
                   "Kanalar": [
                     {
@@ -1932,8 +2220,12 @@
             },
             {
               "td": [
-                { "text": "Beynəlxalq" },
-                { "text": "48" },
+                {
+                  "text": "Beynəlxalq"
+                },
+                {
+                  "text": "48"
+                },
                 {
                   "Kanalar": [
                     {
@@ -2000,7 +2292,6 @@
         {
           "text": "Azeronline Ayrılmış Xətt xidməti təşkilat və şirkətləri gün ərzində 24 saat İnternetə giriş izni, şəxsi serverlərin xidmət etməsi və eyni zamanda çoxlu sayda istifadəçinin İnternetdən istifadəsi ilə təmin edir. "
         },
-
         {
           "strong": [
             {
@@ -2324,7 +2615,26 @@
           "link": "https://docs.google.com/forms/d/1kNB2njKy6V7gEqqkiTWQwdTl1iLUDcIkmQlt1TMT5hY/closedform"
         }
       ]
+    
     }
+  ],
+  "FiberobtikDaire":[
+   
+      {
+    "logo":"Əhatə dairəsi ",
+    "datacategory":[
+      {
+        "text":"Azeronline yeni nəsil sürətli və keyfiyyətli Fiber Optik İnternet xidmətlərini təqdim edir. Xidmət Azərbaycanın bir çox şəhər və bölgələrini əhatə edir. Mövcud Fiber optik İnternet əhatə dairimizin genişlənməsi üzərində işləyirik."
+      },
+      {
+        "p":"ƏHATƏ DAİRƏMİZ ",
+        "img":"https://azeronline.com/public/frontend/images/service/azmap.png"
+      },
+      {
+        "text":"Bakı, Abşeron, Xırdalan, Sumqayıt, Şirvan, Ucar, Kürdəmir, Goranboy, Yevlax, Şəmkir, Daşkəsən, Bərdə, Tərtər, Ağcabədi, Neftçala, Salyan, Siyəzən, Tovuz, Zərdab, Göygöl, Göyçay, Gədəbəy, Ağstafa, Ağdaş, İmişli, Masallı."
+      }
+    ]
+      }
   ],
   "Simsim": [
     {
@@ -2408,7 +2718,6 @@
         {
           "text": "Qiymətlərə ƏDV daxildir."
         },
-
         {
           "strongSim": [
             {
@@ -2437,7 +2746,7 @@
   ],
   "DataIptv": [
     {
-       "logo": "İPTV",
+      "logo": "İPTV",
       "title": "Yerli və əcnəbi telekanallar xidmətinizdə",
       "images": [
         {
@@ -2495,29 +2804,28 @@
           "img": "https://azeronline.com/uploads/840c3e0a8a13b484f34658c156fd1c8c.jpg"
         }
       ],
-      "KanallarData":[
+      "KanallarData": [
         {
           "logo": "Kanalların siyahısı",
-          "logoSert": "Kanallar",  
-        "KanalPopop": [
-        {
-          "logo": "TÜRK",
-          "text": "TRT1, TRT Turk, ATV Turk, Kanal 7, Tv 8.5, Kanal D, Show TV, TV 8 Int, TRT Avaz, Beyaz TV, NTV (tr), Star TV, TRT Haber, Bloomberg, Akilli TV, MGC, Dream Turk, DreamTV, TMB, Disney Channel Turk, TRT Cocuk, Cartoon Network Turk, Minika Cocuk, TRT Spor, DMAX, A Spor, FB TV, ATV Türkiye HD, Show TV HD, Star TV HD, TV8 HD, Kanal 7 HD, 360 TV, TRT Belgesel, NTV Türkiye HD, A Haber HD, A SPOR HD"
-        },
-        {
-          "logo": "RUS",
-          "text": "Первый канал (ОРТ), Россия 1, Россия 24, РТР Планета, НТВ, РБК ТВ, ТНТ, ТНТ4, СТС, РЕН ТВ, ТВ 3, ЧЕ, Пятница, 2x2, Авто 24, Авто Плюс, Телекафе, Кухня ТВ, Родное Кино, Киносемья, Индийское Кино, Кинохит, Киносвидание, Наше Новое Кино, Кинокомедия, Киномикс, Киносерия, Мужское кино, AMEDIA2, ЕвроКино, Иллюзион, Русский Иллюзион, Домашний, Tv 1000 Русское кино, Tv 1000, Tv 1000 Action, 365 Дней, Моя Планета, Охота и Рыбалка, Живая Планета, 24 Техно, Наука 2.0, Совершенно Секретно, Звезда, RUTV, Музыка Первого, Europa + TV, Bridge TV Русский Хит, Детский, Мультимания, Карусель ТВ, Мульт, Детский Мир, Матч! Футбол 1, Матч! Футбол 2, Матч! Футбол 3, Матч! Игра, Матч! ТВ, Матч! Боец ТВ, Матч премьера, Мир ТВ, 5 Канал, Ностальгия, Первый HD, НТВ HD, Россия HD, Мир 24, СТС Love, Мир сериала, Любимое кино, Кино ТВ, Cinema, Bollywood HD, Кинопремьера HD, Дом Кино Премиум HD, Ю-ТВ, История, Первый образовательный, 24 Док, Домашние животные, Кто есть кто, RTG HD, Матч! Премьера, Шансон ТВ, BridgeTV, Муз ТВ, Жара, Tiji, Ani – ТВ, Бокс ТВ, КХЛ HD, Матч! Арена HD, Матч ТВ HD, Матч! Футбол 1 HD, Матч! Футбол 2 HD, Матч! Футбол 3 HD"
-        },
-        {
-          "logo": "BEYNƏLXALQ",
-          "text": "EuroNews, BBC World News, Fashion, Discovery Channel, Discovery Science, National Geographic, Nat Geo Wild HD, Animal Planet, ViaSat History, Viasat Nature East, Viasat Explorer, History, Galaxy TV, TLC, DTX, Da Vinchi Learning, MTV, Cartoon Network, Disney канал, Eurosport1, Extreme Sport, ViaSat Sport, CNN International, Euronews Eng, Paramount Comedy, Paramount Channel, Fox Life, VIP Megahit HD, Amedia 1, Amedia Hit, Amedia Premium HD, MGM HD, Fox HD, Investigation Discovery, Discovery channel HD, Animal Planet HD, National Geographic HD, Travel Channel HD, Viasat Nature HD, History HD, Mezzo Live HD, Gulli Girl, Nickelodeon HD, Tlum HD, Viasat Sport HD, EuroSport 1 HD, EuroSport 2, ATV HD"
-        }
-      ]
+          "logoSert": "Kanallar",
+          "KanalPopop": [
+            {
+              "logo": "TÜRK",
+              "text": "TRT1, TRT Turk, ATV Turk, Kanal 7, Tv 8.5, Kanal D, Show TV, TV 8 Int, TRT Avaz, Beyaz TV, NTV (tr), Star TV, TRT Haber, Bloomberg, Akilli TV, MGC, Dream Turk, DreamTV, TMB, Disney Channel Turk, TRT Cocuk, Cartoon Network Turk, Minika Cocuk, TRT Spor, DMAX, A Spor, FB TV, ATV Türkiye HD, Show TV HD, Star TV HD, TV8 HD, Kanal 7 HD, 360 TV, TRT Belgesel, NTV Türkiye HD, A Haber HD, A SPOR HD"
+            },
+            {
+              "logo": "RUS",
+              "text": "Первый канал (ОРТ), Россия 1, Россия 24, РТР Планета, НТВ, РБК ТВ, ТНТ, ТНТ4, СТС, РЕН ТВ, ТВ 3, ЧЕ, Пятница, 2x2, Авто 24, Авто Плюс, Телекафе, Кухня ТВ, Родное Кино, Киносемья, Индийское Кино, Кинохит, Киносвидание, Наше Новое Кино, Кинокомедия, Киномикс, Киносерия, Мужское кино, AMEDIA2, ЕвроКино, Иллюзион, Русский Иллюзион, Домашний, Tv 1000 Русское кино, Tv 1000, Tv 1000 Action, 365 Дней, Моя Планета, Охота и Рыбалка, Живая Планета, 24 Техно, Наука 2.0, Совершенно Секретно, Звезда, RUTV, Музыка Первого, Europa + TV, Bridge TV Русский Хит, Детский, Мультимания, Карусель ТВ, Мульт, Детский Мир, Матч! Футбол 1, Матч! Футбол 2, Матч! Футбол 3, Матч! Игра, Матч! ТВ, Матч! Боец ТВ, Матч премьера, Мир ТВ, 5 Канал, Ностальгия, Первый HD, НТВ HD, Россия HD, Мир 24, СТС Love, Мир сериала, Любимое кино, Кино ТВ, Cinema, Bollywood HD, Кинопремьера HD, Дом Кино Премиум HD, Ю-ТВ, История, Первый образовательный, 24 Док, Домашние животные, Кто есть кто, RTG HD, Матч! Премьера, Шансон ТВ, BridgeTV, Муз ТВ, Жара, Tiji, Ani – ТВ, Бокс ТВ, КХЛ HD, Матч! Арена HD, Матч ТВ HD, Матч! Футбол 1 HD, Матч! Футбол 2 HD, Матч! Футбол 3 HD"
+            },
+            {
+              "logo": "BEYNƏLXALQ",
+              "text": "EuroNews, BBC World News, Fashion, Discovery Channel, Discovery Science, National Geographic, Nat Geo Wild HD, Animal Planet, ViaSat History, Viasat Nature East, Viasat Explorer, History, Galaxy TV, TLC, DTX, Da Vinchi Learning, MTV, Cartoon Network, Disney канал, Eurosport1, Extreme Sport, ViaSat Sport, CNN International, Euronews Eng, Paramount Comedy, Paramount Channel, Fox Life, VIP Megahit HD, Amedia 1, Amedia Hit, Amedia Premium HD, MGM HD, Fox HD, Investigation Discovery, Discovery channel HD, Animal Planet HD, National Geographic HD, Travel Channel HD, Viasat Nature HD, History HD, Mezzo Live HD, Gulli Girl, Nickelodeon HD, Tlum HD, Viasat Sport HD, EuroSport 1 HD, EuroSport 2, ATV HD"
+            }
+          ]
         }
       ]
     }
   ],
-
   "IPtVType": [
     {
       "logo": "PLATİNUM",
@@ -2611,51 +2919,68 @@
           "price": "40 AZN"
         }
       ],
-      "ADSlSertler":[
+      "ADSlSertler": [
         {
-          "logo":"Tariflər",
+          "logo": "Tariflər",
           "table": [
             {
               "td": [
-                
-	
-                { "textTh": "Kb/s sürət" },
-                { "textTh": "Aylıq ödəniş" }
+                {
+                  "textTh": "Kb/s sürət"
+                },
+                {
+                  "textTh": "Aylıq ödəniş"
+                }
               ]
             },
             {
               "td": [
-                { "text": " 1024 / 1024" },
-                { "text": "10AZN" }
-               
+                {
+                  "text": " 1024 / 1024"
+                },
+                {
+                  "text": "10AZN"
+                }
               ]
             },
             {
               "td": [
-                { "text": "3072 / 1024" },
-                { "text": "15AZN" }
-             
+                {
+                  "text": "3072 / 1024"
+                },
+                {
+                  "text": "15AZN"
+                }
               ]
             },
             {
               "td": [
-                { "text": "5120 / 1024" },
-                { "text": "20AZN" }
-             
+                {
+                  "text": "5120 / 1024"
+                },
+                {
+                  "text": "20AZN"
+                }
               ]
             },
             {
               "td": [
-                { "text": "6144 / 1024" },
-                { "text": "30AZN" }
-               
+                {
+                  "text": "6144 / 1024"
+                },
+                {
+                  "text": "30AZN"
+                }
               ]
             },
             {
               "td": [
-                { "text": "8192 / 1024" },
-                { "text": "40AZN" }
-               
+                {
+                  "text": "8192 / 1024"
+                },
+                {
+                  "text": "40AZN"
+                }
               ]
             }
           ],
@@ -2684,7 +3009,6 @@
             {
               "text": "Ətraflı məlumat və qoşulmaq üçün Müştəri xidmətlərinə müraciət edə bilərsiniz."
             },
-            
             {
               "underline": "24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
             },
@@ -2693,50 +3017,154 @@
             }
           ]
         }
+      ],
+      "Əhatədairəsi":[
+        {
+          "logo":"Əhatə dairəsi",
+          "data":[
+            {
+              "strong":"Bakı:",
+              "text":" 323, 341, 342, 349, 370, 371, 372, 373, 374, 375, 376, 379, 421, 422, 428, 429, 430, 431, 432, 433, 440, 441, 449, 450, 477, 478, 493, 498, 510, 513, 514, 520, 530, 533, 537, 538, 550, 560, 561, 562, 563, 564, 566, 567, 568, 569, 593, 594, 595, 597, 598"
+            },
+            {
+              "span":[
+                {
+                  "strong":"Ağcabədi:",
+                  "text":"5,"
+                },
+                
+                {
+                  "strong":"Ağdaş:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Astara:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Bərdə:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Cəlilabad:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Gəncə:",
+                  "text":"54, 55, 57, 58,"
+                },
+                {
+                  "strong":"İmişli:",
+                  "text":"6,"
+                },
+                {
+                  "strong":"İsmayıllı:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Lənkəran:",
+                  "text":"4, 5,"
+                },
+                {
+                  "strong":"Masallı:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Qazax:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Quba:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Sabirabad:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Salyan:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Şamaxı:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Şəki: ",
+                  "text":"4, 5,"
+                },
+                {
+                  "strong":"Şəmkir: ",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Şirvan:",
+                  "text":"5,"
+                },
+                {
+                  "strong":"Sumqayıt:",
+                  "text":"2, 5, 6,"
+                },
+                {
+                  "strong":"Tağıyev qəsəbəsi:",
+                  "text":"643,"
+                },
+                {
+                  "strong":" Yevlax:",
+                  "text":"6, "
+                },
+                {
+                  "strong":" Zaqatala:",
+                  "text":"5"
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
-  "KorporativData":[
+  "KorporativData": [
     {
-      "logo":"Korporativ xidmətlər",
-      "data":[
+      "logo": "Korporativ xidmətlər",
+      "data": [
         {
-          "img":"https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
-          "logo":"AYRILMIŞ İNTERNET XƏTTİ",
-          "Ətrafli":"Ətraflı",
-          "popopData":[
+          "img": "https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
+          "logo": "AYRILMIŞ İNTERNET XƏTTİ",
+          "Ətrafli": "Ətraflı",
+          "popopData": [
             {
-              "text":"  Azeronline korporativ müştərilərinə yüksək sürətli və etibarlı internet bağlantısını təklif edir. “Ayrılmış İnternet Xətti” xidməti rəqəmsal dövrdə yerli şirkətlərə və təşkilatlara hər zaman onlayn qalmağa yardım edəcək."
+              "text": "  Azeronline korporativ müştərilərinə yüksək sürətli və etibarlı internet bağlantısını təklif edir. “Ayrılmış İnternet Xətti” xidməti rəqəmsal dövrdə yerli şirkətlərə və təşkilatlara hər zaman onlayn qalmağa yardım edəcək."
             },
             {
-              "text":"Üstünlüklər və imkanlar:"
+              "text": "Üstünlüklər və imkanlar:"
             },
             {
-              "text":" 300Mb/s-dək sürət"
+              "text": " 300Mb/s-dək sürət"
             },
             {
-              "text":" Sürətli quraşdırılma"
+              "text": " Sürətli quraşdırılma"
             },
             {
-              "text":" Naqilsiz qoşulma"
+              "text": " Naqilsiz qoşulma"
             },
             {
-              "text":" Etibarlı bağlantı"
+              "text": " Etibarlı bağlantı"
             },
             {
-              "text":" Xüsusi ayrılmış xətt"
+              "text": " Xüsusi ayrılmış xətt"
             },
             {
-              "text":" Limitsiz trafik"
+              "text": " Limitsiz trafik"
             },
             {
-              "text":" Statik İP"
+              "text": " Statik İP"
             },
             {
-              "text":" 99.50% zəmanətli işləmə vaxtı"
+              "text": " 99.50% zəmanətli işləmə vaxtı"
             },
             {
-              "text":" 24/7 aktiv müştəri xidmətləri"
+              "text": " 24/7 aktiv müştəri xidmətləri"
             },
             {
               "strong": [
@@ -2755,39 +3183,39 @@
           ]
         },
         {
-          "img":"https://azeronline.com/uploads/41496a7fb647e9e8b46011e37c702045.jpg",
-          "logo":"SERVERLƏRİN YERLƏŞDİRİLMƏSİ (CO-LOCATION)",
-          "Ətrafli":"Ətraflı",
-          "popopData":[
+          "img": "https://azeronline.com/uploads/41496a7fb647e9e8b46011e37c702045.jpg",
+          "logo": "SERVERLƏRİN YERLƏŞDİRİLMƏSİ (CO-LOCATION)",
+          "Ətrafli": "Ətraflı",
+          "popopData": [
             {
-              "text":"Azeronline korporativ müştəriləri, müvafiq şəraitə malik olan Məlumat Mərkəzində, öz server avadanlığını yerləşdirə bilərlər."
+              "text": "Azeronline korporativ müştəriləri, müvafiq şəraitə malik olan Məlumat Mərkəzində, öz server avadanlığını yerləşdirə bilərlər."
             },
             {
-              "text":"Üstünlüklər və imkanlar:"
+              "text": "Üstünlüklər və imkanlar:"
             },
             {
-              "text":"Təhlükəsiz və etibarlı yerləşdirilmə"
+              "text": "Təhlükəsiz və etibarlı yerləşdirilmə"
             },
             {
-              "text":"Elektrik qidalanma və soyutma sistemi"
+              "text": "Elektrik qidalanma və soyutma sistemi"
             },
             {
-              "text":" 99.76% zəmanətli işləmə vaxtı"
+              "text": " 99.76% zəmanətli işləmə vaxtı"
             },
             {
-              "text":"  100Mb/s-dək internet bağlantı"
+              "text": "  100Mb/s-dək internet bağlantı"
             },
             {
-              "text":" Statik İP"
+              "text": " Statik İP"
             },
             {
-              "text":"  1Gb/s-dək data-bağlantı"
+              "text": "  1Gb/s-dək data-bağlantı"
             },
             {
-              "text":" Limitsiz trafik"
+              "text": " Limitsiz trafik"
             },
             {
-              "text":" 24/7 aktiv müştəri xidmətləri"
+              "text": " 24/7 aktiv müştəri xidmətləri"
             },
             {
               "strong": [
@@ -2806,45 +3234,45 @@
           ]
         },
         {
-          "img":"https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
-          "logo":"AYRILMIŞ İNTERNET XƏTTİ",
-          "Ətrafli":"Ətraflı",
-          "popopData":[
+          "img": "https://azeronline.com/uploads/0837229d8a2ae993798af3412e7b349d.jpg",
+          "logo": "AYRILMIŞ İNTERNET XƏTTİ",
+          "Ətrafli": "Ətraflı",
+          "popopData": [
             {
-              "text":" Azeronline MTK sahibləri üçün aşağıdakı xidmətləri təklif edir:"
+              "text": " Azeronline MTK sahibləri üçün aşağıdakı xidmətləri təklif edir:"
             },
             {
-              "text":"Yüksək sürətli internet (ayrılmış internet xətti daxil)"
+              "text": "Yüksək sürətli internet (ayrılmış internet xətti daxil)"
             },
             {
-              "text":"  Yüksək keyfiyyətli İPTV"
+              "text": "  Yüksək keyfiyyətli İPTV"
             },
             {
-              "text":" Şəhər nömrəsi (Bakı şəhər nömrəsini yerli Telekommunikasiya Qovşağına müraciət etməklə əldə etmək mümkün olacaq)"
+              "text": " Şəhər nömrəsi (Bakı şəhər nömrəsini yerli Telekommunikasiya Qovşağına müraciət etməklə əldə etmək mümkün olacaq)"
             },
             {
-              "text":"Üstünlüklər və imkanlar:"
+              "text": "Üstünlüklər və imkanlar:"
             },
             {
-              "text":"Müxtəlif kampaniyalar və loyallıq proqramı"
+              "text": "Müxtəlif kampaniyalar və loyallıq proqramı"
             },
             {
-              "text":" Sürətli quraşdırılma və keyfiyyətli xidmət"
+              "text": " Sürətli quraşdırılma və keyfiyyətli xidmət"
             },
             {
-              "text":"300Mb/s-dək internet sürəti"
+              "text": "300Mb/s-dək internet sürəti"
             },
             {
-              "text":" Limitsiz internet trafiki"
+              "text": " Limitsiz internet trafiki"
             },
             {
-              "text":" Statik İP"
+              "text": " Statik İP"
             },
             {
-              "text":"200+ İPTV kanalı"
+              "text": "200+ İPTV kanalı"
             },
             {
-              "text":" 24/7 aktiv müştəri xidmətləri"
+              "text": " 24/7 aktiv müştəri xidmətləri"
             },
             {
               "strong": [
@@ -2865,65 +3293,500 @@
       ]
     }
   ],
-  "Loyallıq":[
+  "LoyalData": [
     {
-      "logo":"Loyallıq",
-      "Arxiv":"Arxiv",
-      "ArxovPopop":[
+      "logo": "Loyallıq",
+      "Arxiv": "Arxiv",
+      "ArxovPopop": [
         {
-          "img":"https://azeronline.com/uploads/57bfea0377b2d250dea33e3177a8ae8c.jpg",
-          "text":"“3 alma”-dan endirim",
-          "Popop":[
+          "img": "https://azeronline.com/uploads/57bfea0377b2d250dea33e3177a8ae8c.jpg",
+          "text": "“3 alma”-dan endirim",
+          "Popop": [
             {
-              "text":" “3 alma”-dan onlayn qaydada kitab alan Azeronline abunəçiləri, müvafiq Azeronline müştəri kodunu təqdim etdikdə, hər alınmış kitaba görə 10% endirim əldə edəcəklər."
+              "text": " “3 alma”-dan onlayn qaydada kitab alan Azeronline abunəçiləri, müvafiq Azeronline müştəri kodunu təqdim etdikdə, hər alınmış kitaba görə 10% endirim əldə edəcəklər."
             },
             {
-              "text":"Qeydlər:"
+              "text": "Qeydlər:"
             },
             {
-              "text":""
+              "text": ""
             },
             {
-              "text":"Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən abunəçilərə şamil edilir."
+              "text": "Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən abunəçilərə şamil edilir."
             },
             {
-              "text":" 10% endirim yalnız Feacebook və İnstagram sosial şəbəkələri üzərində alınan kitablara və mütləq şəkildə Azeronline müştəri kodunu təqdim etməklə verilir. Əks halda endirim təqdim edilməyəcək."
+              "text": " 10% endirim yalnız Feacebook və İnstagram sosial şəbəkələri üzərində alınan kitablara və mütləq şəkildə Azeronline müştəri kodunu təqdim etməklə verilir. Əks halda endirim təqdim edilməyəcək."
             },
             {
-              "text":"Loyallıq proqramı 15.02.2021 tarixindən etibarən qüvvəyə minir və 15.09.2021 tarixinə kimi qüvvədədir."
+              "text": "Loyallıq proqramı 15.02.2021 tarixindən etibarən qüvvəyə minir və 15.09.2021 tarixinə kimi qüvvədədir."
             }
           ]
         },
         {
-          "img":"https://azeronline.com/uploads/c0325eb4564fd47c448d5d0f9100d518.jpg",
-          "text":"BİRBANK İLƏ AZERONLINE ENDİRİMİ",
-          "Popop":[
+          "img": "https://azeronline.com/uploads/c0325eb4564fd47c448d5d0f9100d518.jpg",
+          "text": "BİRBANK İLƏ AZERONLINE ENDİRİMİ",
+          "Popop": [
             {
-              "text":"  Azeronline abunəçisi Kapital Bankının “BirBank” mobil tətbiqi üzərindən 10,000 bonus Ürəyə Azeronline internet xidmətlərinə 3 AZN endirim əldə edə bilər."
+              "text": "  Azeronline abunəçisi Kapital Bankının “BirBank” mobil tətbiqi üzərindən 10,000 bonus Ürəyə Azeronline internet xidmətlərinə 3 AZN endirim əldə edə bilər."
             },
             {
-              "text":"Qeydlər:"
+              "text": "Qeydlər:"
             },
             {
-              "text":"Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən, internet xətti aktiv olan abunəçilərinə şamil edilir."
-            },
-            
-            {
-              "text":"“BirBank” mobil tətbiqinə daxil olmaq > Menu > Bonuslar > Ürəklər > Hədiyyələr > Azeronline İnternet xidmətlərinə 3 AZN endirim (10 000 ürək) > Almaq"
+              "text": "Loyallıq proqramı “Optik Onlayn”, “Biznes Onlayn”, “Simsiz Onlayn”, “Biznes Simsiz” və ADSL tariflərindən istifadə edən, internet xətti aktiv olan abunəçilərinə şamil edilir."
             },
             {
-              "text":" Loyallıq proqramı çərçivəsində endirim promo kodlar vasitəsi ilə təqdim olunur."
-            },
-             {
-              "text":" Ay ərzində Kapital Bankının “BirBank” mobil tətbiqi üzərindən yalnız 2 endirim əldə etmək mümkündür."
+              "text": "“BirBank” mobil tətbiqinə daxil olmaq > Menu > Bonuslar > Ürəklər > Hədiyyələr > Azeronline İnternet xidmətlərinə 3 AZN endirim (10 000 ürək) > Almaq"
             },
             {
-              "text":" Əldə olunan promo kodların aktivləşdirmə qaydası:"
+              "text": " Loyallıq proqramı çərçivəsində endirim promo kodlar vasitəsi ilə təqdim olunur."
+            },
+            {
+              "text": " Ay ərzində Kapital Bankının “BirBank” mobil tətbiqi üzərindən yalnız 2 endirim əldə etmək mümkündür."
+            },
+            {
+              "text": " Əldə olunan promo kodların aktivləşdirmə qaydası:"
+            },
+            {
+              "table": [
+                {
+                  "text": " 1. Azeronline veb saytına daxil olmaq"
+                },
+                {
+                  "text": "2. Şəxsi Kabinet bölümünə daxil olmaq (abunəçinin istifadə etdiyi xidmətə uyğun Fiber optik, Simsiz və ya ADSL internet)"
+                },
+                {
+                  "text": "3. Balansı Artır hissəsinə keçmək"
+                },
+                {
+                  "text": "4. Müvafiq xanalara kodları daxil etmək (seriya nömrəsi və şifrəsi)"
+                },
+                {
+                  "text": "5. Daxil Et düyməsini sıxmaq"
+                },
+                {
+                  "text": "6. Endirim balansa əlavə olunacaq"
+                }
+              ]
+            },
+            {
+              "text": "Loyallıq proqramı çərçivəsində əldə olunmuş endirimlər nağdlaşdırılmır və digər Azeronline abunəçisinin internet balansına köçürülmür."
+            },
+            {
+              "text": " Loyallıq proqramı çərçivəsində əldə olunmuş endirimlər abunəçi tərəfindən Azeronline internet xidmətlərindən imtina olunduqda, əvəzsiz qaydada ləğv edilir və yenidən bərpa olunmur."
+            },
+            {
+              "text": " Loyallıq proqramı 11.01.2021 tarixindən etibarən qüvvəyə minir və sayı bitənə qədər davam edəcək."
+            },
+            {
+              "text": " Endirimlərin sayı 1,000 ədəd təşkil edir."
+            },
+            {
+              "text": " Loyallıq proqramı çərçivəsində əldə olunmuş endirimlər yalnız 28.02.2021 tarixinə kimi istifadə oluna bilər."
             }
-
           ]
         }
       ]
     }
+  ],
+  "dataOdenis": [
+    {
+      "logo": "Ödəniş üsulları",
+      "logoArxiv": "Bütün ödəniş üsulları",
+      "Data": [
+        {
+          "link": "http://adsl2.azeronline.com/client/index.php",
+          "img": "https://azeronline.com/uploads/3e0e4374ecdb18543e1e8267f98550e7.jpg"
+        },
+        {
+          "img": "https://azeronline.com/uploads/23dc3788978bd938c989390b4ba25ab2.jpg",
+          "logo": "AZERCELL KABİNETİM VASİTƏSİLƏ ÖDƏMƏ",
+          "Popop": [
+            {
+              "text": " Azeronline xidmətlərini ödəmək üçün Azercell Kabinetim mobil tətbiqində:"
+            },
+            {
+              "text": " 1. “Menu”-dan “Mobil Ödəmə” bölməsinə daxil olursunuz."
+            },
+            {
+              "text": " 2. Sonra “İnternet” bölümündə “Azeronline” xidməti seçərək, ödəniş üçün lazım olan məlumatları (müştəri kodunu və ödəniş məbləğini) daxil etməklə ödənişi edirsiniz."
+            },
+            {
+              "text": "3. Ödənişdən sonra məbləğin nömrənizin balansından silindiyi barədə bildiriş alacaqsınız."
+            },
+            {
+              "text": "Tarixçə bölməsində isə son 90 günün ödəniş tarixçəsini görə biləcəksiniz."
+            },
+            {
+              "text": "Azercell Kabinetim mobil tətbiqi ilə Azeronline Fiber Optik, Simsiz və ADSL internet (İPTV xidməti daxil) xidmətlərini ödəyə bilərsiniz."
+            },
+            {
+              "text": "Qeydlər: "
+            },
+            {
+              "text": "Yalnız fiziki şəxslərə aid nömrələr və Azercell fakturasız xətt abunəçiləri bu xidmətdən yararlana bilərlər."
+            },
+            {
+              "text": " Fakturalı Xətt Abunəçiləri avans balanslarından istifadə edərək, bu xidmətdən yararlana bilərlər."
+            },
+            {
+              "text": " Birdəfəlik minimal ödəniş məbləği 1 AZN-dir."
+            },
+            {
+              "text": " Birdəfəlik maksimal ödəniş məbləği 50 AZN-dir."
+            },
+            {
+              "text": " Bir ay ərzində bir nömrə üzərindən maksimal ödəniş məbləği 500 AZN-dir."
+            },
+            {
+              "text": " Ödəniş üçün balans 3 AZN-dən çox olmalıdır."
+            }
+          ]
+        },
+        {
+          "link": "https://gpp.az/WebPortal/Infosite/RedirectFromSc/946200/aHR0cHM6Ly93d3cuYXplcm9ubGluZS5jb20v",
+          "img": "https://azeronline.com/uploads/ec9e39b34905632f47b266f0cd10eb46.jpg"
+        },
+        {
+          "link": "https://hesab.az/unregistered/#/direct-pay/internet/azeronline/parameters?lang=az",
+          "img": "https://azeronline.com/uploads/e4af629c0d06e645bd7d5f31bf05e15b.jpg"
+        },
+        {
+          "link": "https://asanpay.az/payments/internet/2003778",
+          "img": "https://azeronline.com/uploads/f7121fd4e758f0c77d37159922577e0b.jpg"
+        },
+        {
+          "link": "https://portmanat.az/project/withcode/350",
+          "img": "https://azeronline.com/uploads/f5798bd555d59b2c1d72628af73c081c.jpg"
+        }
+      ],
+      "Arxiv": [
+        {
+          "logo": "Bütün ödəniş üsulları",
+          "Popop": [
+            {
+              "name": "AZERCELL KABİNETİM VASİTƏSİLƏ ÖDƏMƏ",
+              "item": [
+                {
+                  "text": "1. “Menu”-dan “Mobil Ödəmə” bölməsinə daxil olursunuz."
+                },
+                {
+                  "text": " 2. Sonra “İnternet” bölümündə “Azeronline” xidməti seçərək, ödəniş üçün lazım olan məlumatları (müştəri kodunu və ödəniş məbləğini) daxil etməklə ödənişi edirsiniz."
+                },
+                {
+                  "text": "3. Ödənişdən sonra məbləğin nömrənizin balansından silindiyi barədə bildiriş alacaqsınız."
+                },
+                {
+                  "text": "Tarixçə bölməsində isə son 90 günün ödəniş tarixçəsini görə biləcəksiniz."
+                },
+                {
+                  "text": "Azercell Kabinetin mobil tətbiqi ilə Azeronline Fiber Optik, Simsiz və ADSL internet (İPTV xidməti daxil) xidmətlərini ödəyə bilərsiniz"
+                },
+                {
+                  "text": "Qeydlər: "
+                },
+                {
+                  "text": "Yalnız fiziki şəxslərə aid nömrələr və Azercell fakturasız xətt abunəçiləri bu xidmətdən yararlana bilərlər"
+                },
+                {
+                  "text": " Fakturalı Xətt Abunəçiləri avans balanslarından istifadə edərək, bu xidmətdən yararlana bilərlər"
+                },
+                {
+                  "text": " Birdəfəlik minimal ödəniş məbləği 1 AZN-dir"
+                },
+                {
+                  "text": " Birdəfəlik maksimal ödəniş məbləği 50 AZN-dir"
+                },
+                {
+                  "text": " Bir ay ərzində bir nömrə üzərindən maksimal ödəniş məbləği 500 AZN-dir"
+                },
+                {
+                  "text": " Ödəniş üçün balans 3 AZN-dən çox olmalıdır"
+                }
+              ]
+            },
+            {
+              "name": " SMS ÖDƏMƏ",
+              "item": [
+                {
+                  "text": "ADSL istifadəçi adınızı (qoşulmuş telefon nömrəsi) SMS vasitəsilə 91705 və ya 91710 qısa nömrələrinə göndərin."
+                },
+                {
+                  "text": "Balansınızda 5₼ və ya 10₼ məbləğində internet aktivləşəcək."
+                },
+                {
+                  "table": [
+                    {
+                      "td": [
+                        {
+                          "th": "Qısa nömrə"
+                        },
+                        {
+                          "th": "Tarif (1 SMS üçün)"
+                        }
+                      ]
+                    },
+                    {
+                      "td": [
+                        {
+                          "text": "Ağcəbədi"
+                        },
+                        {
+                          "text": "707833839"
+                        }
+                      ]
+                    },
+                    {
+                      "td": [
+                        {
+                          "text": "Lənkaran"
+                        },
+                        {
+                          "text": "502954024"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "span": [
+                    {
+                      "strong": "Qeyd: "
+                    },
+                    {
+                      "text": "Yalnız Fakturasız Xətt abunəçiləri üçün"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ONLAYN ÖDƏMƏ",
+              "item": [
+                {
+                  "span": [
+                    {
+                      "text": "Azeronline internet xidmətlərini bank kartı ilə ödəmək çox rahatdır. Fiber Optik, Simsiz və ADSL internet (İPTV xidməti daxil) üzrə xidmət haqlarını  "
+                    },
+                    {
+                      "category": [
+                        {
+                          "link": "https://gpp.az/WebPortal/Infosite/RedirectFromSc/946200/aHR0cHM6Ly93d3cuYXplcm9ubGluZS5jb20v",
+                          "text": " Hökumət Ödəniş Portalı,"
+                        },
+                        {
+                          "link": "https://asanpay.az/payments/internet/2003778",
+                          "text": " ASAN ödəniş,"
+                        },
+                        {
+                          "link": "https://hesab.az/unregistered/#/direct-pay/internet/azeronline/parameters?lang=az",
+                          "text": " Hesab.az,"
+                        },
+                        {
+                          "link": "https://azeronline.3dsecure.az/?lang=az",
+                          "text": "Azericard,"
+                        },
+                        {
+                          "link": "https://kiosk.cib.az/azeronline/Home",
+                          "text": " CİB "
+                        }
+                      ]
+                    },
+                    {
+                      "text": "üzərindən ödəyə bilərsiniz."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BANK VƏ POÇT FİLİALLARINDA ÖDƏMƏ",
+              "item": [
+                {
+                  "text": "Azeronline Fiber Optik, Simsiz və ADSL internet (İPTV xidməti daxil) xidmətləri üzrə nağd ödənişlər istənilən Azərpoçt, Naxçıvanpoçt və bank filiallarında qəbul olunur. Ödəniş üçün tələb olan məlumat: müştəri kodu və ödəniş məbləği."
+                }
+              ]
+            },
+            {
+              "name": " “ƏDV GERİ AL” ÜZƏRİNDƏN ÖDƏMƏ",
+              "item": [
+                {
+                  "text": "Azeronline abunəçiləri “ƏDV geri al” veb saytında (www.edvgerial.az) və Kapital Bankın “BirBank” mobil tətbiqində olan şəxsi kabineti üzərindən geri alınmış ƏDV məbləğindən Azeronline Fiber Optik, Simsiz və ADSL internet ödənişlərini (İPTV xidməti daxil) edə bilərlər."
+                },
+                {
+                  "text": "Ödəniş qaydası aşağıdakı kimidir:"
+                },
+                {
+                  "b": "Veb sayt üzərindən"
+                },
+                {
+                  "text": "Əsas səhifə > Ödəniş > İnternet > Azeronline > Müştəri kodu > Ödəniləcək məbləğ > Təsdiq"
+                },
+                {
+                  "b": "BirBank mobil tətbiqi üzərindən"
+                },
+                {
+                  "text": "Menu > Bonus > ƏDV geri al > Ödəniş > İnternet > Azeronline > Müştəri kodu > Ödəniləcək məbləğ > Təsdiq"
+                },
+                {
+                  "b": "Qeydlər:"
+                },
+                {
+                  "text": " Təqdim olunan ödəniş imkanı yalnız fiziki şəxs olan istehlakçılara şamil edilir"
+                },
+                {
+                  "text": " Birdəfəlik minimal ödəniş məbləği 1 AZN-dir."
+                },
+                {
+                  "text": "Birdəfəlik maksimal ödəniş məbləği 200 AZN-dir."
+                }
+              ]
+            },
+            {
+              "name": " ÖDƏNİŞ TERMİNALLARI",
+              "item": [
+                {
+                  "text": "Azeronline müştəriləri `MilliÖn`, `eManat`, `ExpressPay`, `Kapital Bank`, `ASAN ödəniş` və digər ödəniş terminalları vasitəsilə internet balanslarını artıra bilərlər."
+                }
+              ]
+            },
+            {
+              "name": "ELEKTRON CÜZDAN",
+              "item": [
+                {
+                  "span": [
+                    {
+                      "b": "Portmanat"
+                    },
+                    {
+                      "text": " vasitəsilə ödəmək üçün"
+                    },
+                    {
+                      "link": "https://www.portmanat.az/project/withcode/350",
+                      "linkT": " bura tıklayın"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "FooterData": [
+    {
+      "logoUrl": "https://azeronline.com/uploads/56da12fa07b97706c2ef46ed90422614.jpg",
+      "info": "“Azeronline LTD” Birgə Müəssisəsi 1999-cu il, 29 dekabr tarixində Azercell Telekom BM tərəfindən təsis edilmişdır. Azərbaycanda yaranan ilk İnternet provayder şirkətlərindən biri olan Azeronline fəaliyyətinə Dial-up İnternet xidmətinin göstərilməsi ilə başlamışdır. Hazırda Azəronline həm fərdi, həm də korporativ müştərilərinə ADSL xidməti ilə yanaşı, müasir texnologiyalara əsaslanan FTTx, Simsiz və Ayrılmış xətt kimi İnternet xidmətləri də təqdim edir. Müştərilərimiz arasında iri şirkətlər, banklar, eləcə də dövlət qurumları yer almaqdadır.",
+      "category": [
+        {
+          "text": " Ünvanımız"
+        },
+        {
+          "text": "Azərbaycan, Bakı, AZ1004"
+        },
+        {
+          "link": "https://www.google.com/maps/place/%22Aztelekom%22+MMC/@40.3964119,49.8145189,17z/data=!3m1!4b1!4m6!3m5!1s0x40308777c80274c9:0xbf9e08a2de2a4195!8m2!3d40.3964119!4d49.8145189!16s%2Fg%2F1hhw3l1pr?entry=ttu",
+          "textLink": "Tbilisi prospekti 187"
+        }
+      ],
+      "categoryB": [
+        {
+          "text": " 24/7 MÜŞTƏRİ XİDMƏTLƏRİ:"
+        },
+        {
+          "text": "CustomerCare@azeronline.net"
+        },
+        {
+          "tell": [
+            {
+              "text": "2020 (Azercell abunəçiləri üçün)",
+              "icon": "fa fa-mobile",
+              "link": "tel:2020"
+            },
+            {
+              "text": "8220",
+              "icon": "fa fa-phone",
+              "link": "tel:8220"
+            }
+          ]
+        }
+      ],
+      "Müştərixidmətləri": [
+        {
+          "logo": "Müştəri xidmətləri",
+          "category": [
+            {
+              "logo": "Telefon vasitəsilə",
+              "tell": [
+                {
+                  "text": "2020 (Azercell abunəçiləri üçün)",
+                  "icon": "fa fa-mobile",
+                  "link": "tel:2020"
+                },
+                {
+                  "text": "8220",
+                  "icon": "fa fa-phone",
+                  "link": "tel:8220"
+                }
+              ]
+            },
+            {
+              "logo": "Facebook vasitəsilə",
+              "tell": [
+                {
+                  "text": "Rəsmi facebook səhifəmiz",
+                  "icon": "fa fa-facebook-official",
+                  "link": "https://www.facebook.com/azeronline"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "BasketMenu":[
+    {
+      "text":"Kampaniyalar",
+      "link":"#Kampaniyalar"
+    },
+    {
+      "text":"Xidmətlər",
+      "link":"#Xidmətlər"
+    },
+    {
+      "text":"Fiber Optik",
+      "link":"#FiberOptik"
+    },
+    {
+      "text":"Simsim",
+      "link":"#Simsim"
+    },
+    {
+      "text":"IPTV",
+      "link":"#IPTV"
+    },
+    {
+      "text":"ADSL",
+      "link":"#ADSL"
+    },
+    {
+      "text":"Korporativ",
+      "link":"#Korporativ"
+    },
+    {
+      "text":"Ödəniş üsulları",
+      "link":"#Odenis"
+    },
+    {
+      "text":"Haqqımızda",
+      "link":"#footer"
+    },
+    {
+      "text":"Şəxsi Kabinet",
+      "link":"Login"
+    }
+
   ]
 }
