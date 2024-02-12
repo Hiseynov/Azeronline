@@ -106,8 +106,6 @@ function CityPopop(props) {
             ADSLDaire ||
             DaireData
               ? { width: "80%" }
-              : LoyaliqDataItem
-              ? { width: "37%" }
               : { width: "50%" }
           }
         >
@@ -302,14 +300,14 @@ function CityPopop(props) {
                             )) ||
                             (item.strong &&
                               item.strong.map((it, id) => (
-                                <>
+                                <span className="underDash">
                                   {it.text && <span key={id}>{it.text}</span>}
                                   {it.textLink && (
                                     <a className="doshed" href={it.link}>
                                       {it.textLink}
                                     </a>
                                   )}
-                                </>
+                                </span>
                               )))}
                         </p>
                       ))}

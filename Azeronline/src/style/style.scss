@@ -8,7 +8,8 @@
 
   font-family: "Inter", sans-serif;
 }
-
+@import 'mixins';
+@import 'variables';
 #header {
   
 background-color: white;
@@ -39,6 +40,12 @@ z-index: 99999;
       align-items: center;
 
       .header-logo {
+        img{
+          @include mobile{
+            width: 230px;
+          }
+          
+        }
       }
 
       .header-popop {
@@ -67,10 +74,13 @@ z-index: 99999;
 
     .header-container-center {
       ul {
+     
         display: flex;
         gap: 60px;
         align-items: center;
-
+   @include mobile{
+          display: none;
+        }
         li {
           display: flex;
           gap: 5px;
@@ -126,7 +136,7 @@ z-index: 99999;
     position: absolute;
     // left: 0;
     right: 0;
-    top: 85px;
+    top: 80px;
     z-index: 4;
     transform-origin: right;
     display: flex;
@@ -210,8 +220,8 @@ z-index: 99999;
     background: white;
     width: 500px;
     overflow-y: scroll;
-    max-height: 90%;
-    top: 20px;
+    max-height: 80%;
+    top: 100px;
     min-height: 200px;
 
     .PopopCity-container {
@@ -315,6 +325,7 @@ z-index: 99999;
   transition: 0.5s;
   font-size: 24px;
   font-weight: 700;
+  height: 30px;
 
   &:hover {
     opacity: 0.8;
@@ -335,6 +346,9 @@ z-index: 99999;
     h3 {
       color: #4b009b;
       font-size: 30px;
+      @include mobile{
+        font-size: 20px;
+      }
     }
   }
 
@@ -360,7 +374,9 @@ svg {
 #Map {
   width: 80%;
   margin: 0 auto;
-
+  @include mobile{
+    display: none;
+  }
   .Map-container {
     position: relative;
     margin-top: 80px;
@@ -467,9 +483,12 @@ svg {
 
 #Kampaniyalar {
   margin-top: 30px;
+  padding-top: 50px;
   background-color: #2d373c;
   padding-bottom: 30px;
-
+@include mobile{
+  margin-top: 0;
+}
   .Kampaniyalar-container {
     width: 80%;
     margin: 0 auto;
@@ -527,7 +546,7 @@ svg {
         .Kampaniyalar-item {
           display: flex;
           background: #2d373c;
-          width: 400px;
+          // width: 400px;
           height: 70px;
           border: 2px solid white;
           border-radius: 14px;
@@ -593,6 +612,7 @@ svg {
     &:hover {
       border-bottom: 1px solid #4b009b;
       color: #4b009b;
+      cursor: pointer;
     }
   }
 
@@ -679,6 +699,7 @@ svg {
 }
 
 #Xidmətlər {
+  padding-top: 50px;
   .Xidmetler {
     margin-top: 50px;
 
@@ -692,6 +713,11 @@ svg {
     .Xidmetler-container {
       display: flex;
       justify-content: space-evenly;
+      flex-wrap: wrap;
+      @include mobile{
+       
+       align-items: center;
+      }
 
       .XidmetlerItem {
         display: flex;
@@ -750,7 +776,13 @@ svg {
     display: flex;
     align-items: center;
     gap: 10px;
-
+ 
+.underDash{
+     @include mobile{
+      font-size: 11px;
+      font-weight: 700;
+    }
+}
     img {
       width: 50px;
     }
@@ -876,6 +908,11 @@ svg {
 .FiberOptik-data {
   display: grid;
   column-gap: 15px;
+  @include mobile{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
 
   .fiberobtikData-item {
     position: relative;
@@ -1007,7 +1044,7 @@ svg {
 }
 #Simsim {
   margin-top: 50px;
-  padding: 40px 0;
+  padding: 80px 0;
   .Simsim-container {
     width: 80%;
     margin: 0 auto;
@@ -1193,8 +1230,13 @@ svg {
         .IPTV-images {
           display: grid;
           grid-template-columns: repeat(6, 1fr);
-          column-gap: 30px;
+          column-gap: 50px;
           row-gap: 15px;
+          @include mobile{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 80px;
+          }
           .IPTV-item {
             width: 120px;
             cursor: pointer;
@@ -1373,6 +1415,7 @@ svg {
 #ADSL {
   .ADSL {
     background-color: #565656;
+    padding-top: 50px;
     .ADSL-container {
       display: flex;
       flex-direction: column;
@@ -1389,6 +1432,10 @@ svg {
         display: flex;
         justify-content: space-between;
         gap: 20px;
+        flex-wrap: wrap;
+        @include mobile{
+          justify-content: center;
+        }
         .ADSL-dataItem {
           border: 2px solid white;
           width: 200px;
@@ -1470,7 +1517,7 @@ svg {
 
 #Korporativ {
   background-color: #2d373c;
-  padding: 50px 0;
+  padding: 80px 0;
   // .Korporativ{
   .Korporativ-container {
     .Korporativ-logo {
@@ -1551,9 +1598,11 @@ svg {
     .Loyaliq-data {
       font-size: 22px;
       color: white;
+      // color: #4b009b;
     }
   }
 }
+
 .LoyaliqPopop-container {
   display: flex;
   flex-direction: column;
@@ -1565,6 +1614,11 @@ svg {
     gap: 10px;
     img {
       width: 35px;
+    }
+    p{
+      @include mobile{
+        font-size: 14px;
+      }
     }
   
   }
@@ -1599,6 +1653,7 @@ svg {
 #Odenis {
   .Odenis {
     background-color: #eee;
+    padding-top: 50px;
     .Odenis-container {
       display: flex;
       flex-direction: column;
@@ -1614,6 +1669,7 @@ svg {
       .Odenis-data {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 20px;
         img {
           background-color: #fff;
@@ -1657,7 +1713,7 @@ svg {
 }
 #footer {
   .footer {
-    padding: 50px 0 80px 0;
+    padding: 80px 0 80px 0;
     background-color: #4b009b;
     &__container {
       width: 80%;
@@ -1728,7 +1784,9 @@ svg {
 }
 // .Login{
 .from-container {
-  background-color: #e4e6ef;
+  background-image: url("https://www.w3schools.com/cssref/paper.gif");
+  background-color: #cccccc;
+  // background-color: #e4e6ef;
   padding: 60px 0;
   display: flex;
   justify-content: center;
@@ -1742,7 +1800,7 @@ svg {
       color: #4b009b;
       font-size: 27px;
       text-align: center;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1.5px solid #3c0c70;
       padding-bottom: 10px;
     }
     .registr-card-body {
@@ -1811,7 +1869,7 @@ svg {
   color: #fff;
   width: 100%;
   text-align: center;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1821,7 +1879,7 @@ svg {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  font-size: 12px;
+  font-size: 16px;
 }
 .Daire-container {
   display: flex;
@@ -1868,17 +1926,25 @@ svg {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  position: relative;
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background-color: #000;
-    border-radius: 10px;
-    top: 55px;
-    left: 0;
+  p{
+    
+     &:nth-child(1){
+      padding-bottom: 30px;
+      border-bottom: 1px solid black;
   }
+  }
+ 
+  // position: relative;
+  // &::after {
+  //   content: "";
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 1px;
+  //   background-color: #000;
+  //   border-radius: 10px;
+  //   top: 55px;
+  //   left: 0;
+  // }
 }
 .ScroolTop{
   background: rgb(0, 91, 226);
@@ -1912,6 +1978,11 @@ svg {
   bottom: 90px !important;
   height: 500px !important;
   width: 33% !important;
+  @include mobile{
+    width: 50% !important;
+    right: 56px !important;
+    bottom: 90px !important;
+  }
 }
 .fBGGBn {
   min-height: auto !important;
@@ -1963,4 +2034,44 @@ svg {
   strong{
     font-size: 14px;
   }
+}
+.Register-form-group{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  textarea{
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 70px;
+    min-height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  input{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+}
+.Register-form-group-gender{
+ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+  }
+}
+}
+.backroundImg{
+  
 }

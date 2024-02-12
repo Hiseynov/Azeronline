@@ -11,7 +11,6 @@ function Regist() {
   const [password, passwordchange] = useState("");
   const [email, emailchange] = useState("");
   const [phone, phonechange] = useState("");
-  const [country, countrychange] = useState("");
   const [address, addresschange] = useState("");
   const [gender, genderchange] = useState("");
   const [passwordDirty, setPasswordDirty] = useState(false);
@@ -25,8 +24,6 @@ function Regist() {
   const [PhoneDirty, setPhoneDirty] = useState(false);
   const [PhoneError, setPhoneError] = useState("Telefon nömrəsi boş ola bilməz");
   const [formValid, setFormValid] = useState(false);
-  const [karzina,setkarzina]= useState([])
-  const [yazilarFilter,setYazilarFilter]=useState([])
   const [LoginData,setLoginData] = useState([])
 
   useEffect(() => {
@@ -147,7 +144,6 @@ function Regist() {
         password,
         email,
         phone,
-        country,
         address,
         gender
       };
@@ -171,15 +167,17 @@ function Regist() {
   };
   return (
    <>
-      <form onSubmit={handlesubmit} className="from-container">
+                 <div className="backroundImg">
+                        <form onSubmit={handlesubmit} className="from-container">
         {/* {console.log(LoginData,'ss')} */}
         
             <div className="registr-card">
             <h1>Qeydiyyat</h1>
 
               <div className="registr-card-body">
+  
                 <div className="form-container">
-                  <div className="form-group">
+                  <div className="Register-form-group">
                     <label>
                       Login <span>*</span>
                     </label>
@@ -205,9 +203,9 @@ function Regist() {
                     )}
                   </div>
                  
-                  <div className="form-group">
+                  <div className="Register-form-group">
                     <label>
-                      Full Name <span>*</span>
+                    Tam adı <span>*</span>
                     </label>
                     <input
                       onBlur={(e) => blurHandler(e)}
@@ -228,9 +226,9 @@ function Regist() {
                       <div style={{ color: "red" }}>{FulnameError}</div>
                     )}
                   </div>
-                  <div className="form-group">
+                  <div className="Register-form-group">
                     <label>
-                      Email <span>*</span>
+                    E-poçt <span>*</span>
                     </label>
                     <input
                       onBlur={(e) => blurHandler(e)}
@@ -251,9 +249,9 @@ function Regist() {
                       <div style={{ color: "red" }}>{emailError}</div>
                     )}
                   </div>
-                  <div className="form-group">
+                  <div className="Register-form-group">
                     <label>
-                      Phone <span>*</span>
+                    Telefon <span>*</span>
                     </label>
                     <input
                       onBlur={(e) => blurHandler(e)}
@@ -274,9 +272,9 @@ function Regist() {
                       <div style={{ color: "red" }}>{PhoneError}</div>
                     )}
                   </div>
-                  <div className="form-group">
+                  <div className="Register-form-group">
                     <label>
-                      Password <span>*</span>
+                    Parol <span>*</span>
                     </label>
                     <input
                       onBlur={(e) => blurHandler(e)}
@@ -297,32 +295,19 @@ function Regist() {
                       <div style={{ color: "red" }}>{passworError}</div>
                     )}
                   </div>
-                  <div className="form-group">
-                    <label>
-                      Country <span>*</span>
-                    </label>
-                    <select
-                      value={country}
-                      onChange={(e) => countrychange(e.target.value)}
-                      className="form-control BorderActiveTrue"
-                    >
-                      <option value="Aze">Aze</option>
-                      <option value="USA">Rus</option>
-                      <option value="Singapore">Angl</option>
-                    </select>
-                  </div>
-                  <div className="form-group">
-                    <label>Adress</label>
+                  <div className="Register-form-group">
+                    <label>Ünvan</label>
                     <textarea
                       value={address}
                       onChange={(e) => addresschange(e.target.value)}
                       className="form-control BorderActiveTrue"
                     ></textarea>
                   </div>
-                  <div className="form-group-gender">
+                  <div className="Register-form-group-gender">
                     <ul>
                       <li><label>Gender : </label></li>
-                      <li>     <input
+                      <li>     <span>
+                      <input
                       checked={gender === "male"}
                       onChange={(e) => genderchange(e.target.value)}
                       type="radio"
@@ -331,7 +316,9 @@ function Regist() {
                       className="app-check"
                     />
                     <label>Male</label>
-                    <input
+                      </span>
+               <span>
+               <input
                       checked={gender === "female"}
                       onChange={(e) => genderchange(e.target.value)}
                       type="radio"
@@ -340,6 +327,7 @@ function Regist() {
                       className="app-check"
                     />
                     <label>Female</label>
+               </span>
                     </li>
                     </ul>
                     
@@ -366,12 +354,14 @@ function Regist() {
                 </Link>)
                 }
                
-                <Link to={"/Login"} className="btn btn-danger">
+                <Link to={"/Login"} className="underlineB btn btn-danger">
                 Daxil
                 </Link>
               </div>
             </div>
           </form>
+                 </div>
+
    </>
   );
 }

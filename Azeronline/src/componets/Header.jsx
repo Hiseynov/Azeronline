@@ -105,7 +105,7 @@ function Header() {
             </div>
             <div className="header-container-right">
 
-                  <div onClick={()=>(setactiveBasket(!activeBasket))} className={`BasketMenu ${activeBasket?'basketActive':''}` }>
+                  <div onClick={()=>(setactiveBasket(!activeBasket))} className={`BasketMenu ${activeBasket?'basketActive':''}`}>
                  <span className='basket-left basket'></span>
                 <span className='basket-center basket'></span>
                 <span className='basket-right basket'></span>
